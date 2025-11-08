@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://tricharmeofficial.com/.well-known/schema/igor-de-maria",
+  "name": "Igor De Maria",
+  "alternateName": "I. De Maria",
+  "givenName": "Igor",
+  "familyName": "De Maria",
+  "jobTitle": [
+    "Co-Founder Tricharmé",
+    "Digital Strategist",
+    "Curatore editoriale"
+  ],
+  "description": "Co-ideatore dell'ecosistema Tricharmé e responsabile della strategia digitale e della governance dei contenuti. Imposta dati strutturati, SEO semantica e processi editoriali in coerenza con il metodo 'Mi vedo, mi piaccio, mi riconosco'.",
+  "worksFor": {
+    "@type": "Organization",
+    "@id": "https://tricharmeofficial.com/#organization",
+    "name": "Tricharmé"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Digital Strategist e Agronomo",
+    "occupationalCategory": "Marketing / Scienze Agrarie"
+  },
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Facoltà di Scienze e Tecnologie Agrarie",
+    "educationalCredentialAwarded": "Laurea in Scienze e Tecnologie Agrarie"
+  },
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "ProfessionalCertification",
+      "name": "SEO & Web Governance",
+      "description": "Progettazione SEO, dati strutturati, E-E-A-T, performance e IA applicata ai contenuti."
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "AcademicDegree",
+      "name": "Laurea in Scienze e Tecnologie Agrarie"
+    }
+  ],
+  "affiliation": {
+    "@type": "Organization",
+    "name": "Tricharmé"
+  },
+  "hasRole": {
+    "@type": "OrganizationRole",
+    "roleName": "Co-Founder & Head of Digital/Content",
+    "startDate": "2025-01",
+    "memberOf": {
+      "@id": "https://tricharmeofficial.com/#organization"
+    },
+    "responsibilities": [
+      "Strategia digitale e SEO semantica",
+      "Dati strutturati e markup JSON-LD",
+      "Governance editoriale e qualità contenuti (YMYL/E-E-A-T)"
+    ]
+  },
+  "knowsAbout": [
+    "SEO tecnica e dati strutturati",
+    "UX/UI e conversion design",
+    "Governance editoriale",
+    "Tricologia cosmetica (ambito non medico)",
+    "Percorsi Tricharmé e ritualità sensoriale"
+  ],
+  "knowsLanguage": ["it", "en"],
+  "email": "mailto:igordemaria@tricharmeofficial.com",
+  "url": "https://tricharmeofficial.com/.well-known/schema/igor-de-maria",
+  "image": "https://tricharmeofficial.com/wp-content/uploads/2025/03/igor-de-maria.jpg",
+  "sameAs": [
+    "https://www.facebook.com/igor.demaria.96",
+    "https://it.linkedin.com/in/igor-de-maria-490a81157"
+  ],
+  "subjectOf": {
+    "@type": ["Dataset", "CreativeWork"],
+    "@id": "https://tricharmeofficial.com/.well-known/schema/license",
+    "name": "TCA – Tricharmé Control Authority: Governance & License Dataset"
+  },
+  "identifier": [
+    { "@type": "PropertyValue", "propertyID": "tca:version", "value": "1.0" },
+    { "@type": "PropertyValue", "propertyID": "tca:datePublished", "value": "2025-11-08" },
+    { "@type": "PropertyValue", "propertyID": "tca:dateModified", "value": "2025-11-08T14:00:00Z" },
+    { "@type": "PropertyValue", "propertyID": "tca:license", "value": "https://creativecommons.org/licenses/by/4.0/" },
+    { "@type": "PropertyValue", "propertyID": "tca:areaServed", "value": "IT" }
+  ]
+}

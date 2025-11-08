@@ -1,0 +1,359 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CreativeWork",
+      "@id": "https://tricharmeofficial.com/#percorso",
+      "name": "Percorso Tricharmé — Mi vedo, mi piaccio, mi riconosco",
+      "inLanguage": "it-IT",
+      "description": "Percorso esperienziale e identitario in cui la bellezza diventa consapevolezza di sé. Tre fasi collegate a consulenze e rituali specifici, per un metodo strutturato e replicabile.",
+      "isPartOf": { "@id": "https://tricharmeofficial.com/#website" },
+      "publisher": { "@id": "https://tricharmeofficial.com/#organization" },
+      "about": [
+        "consulenza tricologica",
+        "rituali capillari personalizzati",
+        "consulenza d'immagine",
+        "armocromia",
+        "analisi silhouette",
+        "make-up"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Filosofia",
+          "value": "Mi vedo: ascolto e verità; Mi piaccio: cura e armonia; Mi riconosco: identità visiva autentica e duratura."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Palette Sensorielle",
+          "value": "Racine (#4A342E), Écorce (#7B5E57), Velours (#C4A69F), Lumière (#F4EDE6), Voile (#ECE7E2)"
+        }
+      ],
+      "hasPart": [
+        {
+          "@type": "WebPage",
+          "@id": "https://tricharmeofficial.com/mi-vedo/",
+          "name": "Mi vedo",
+          "description": "Fase dell'ascolto e della scoperta: consulenza Tricovisage per osservare cute e capelli con strumenti tecnici ed estetici.",
+          "position": 1
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://tricharmeofficial.com/mi-piaccio/",
+          "name": "Mi piaccio",
+          "description": "Cinque Macro-Rituali per riequilibrare e valorizzare: Pureté, Renaissance, Élixir, Vitalité, Couleur.",
+          "position": 2
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://tricharmeofficial.com/mi-riconosco/",
+          "name": "Mi riconosco",
+          "description": "Identité Visuelle®: armocromia, analisi della silhouette e make-up personalizzato.",
+          "position": 3
+        }
+      ]
+    },
+
+    {
+      "@type": "Service",
+      "@id": "https://tricharmeofficial.com/#service-tricovisage",
+      "name": "Tricovisage — Consulenza Tricologica con Tricocamera",
+      "serviceType": "Consulenza tricologica estetico-olistica",
+      "alternateName": "Tricovisage",
+      "description": "Analisi ad alta definizione di cute e capelli per osservare dettagli invisibili a occhio nudo e costruire un percorso personalizzato.",
+      "category": "Mi vedo",
+      "isRelatedTo": { "@id": "https://tricharmeofficial.com/#percorso" },
+      "provider": { "@id": "https://tricharmeofficial.com/#localbusiness" },
+      "areaServed": { "@type": "AdministrativeArea", "name": "Torino, Italy" },
+      "url": "https://tricharmeofficial.com/mi-vedo/",
+      "termsOfService": "https://tricharmeofficial.com/disclaimer-medico-tricharme/",
+      "additionalProperty": [
+        { "@type": "PropertyValue", "name": "Rituale d'accesso", "value": "Sì, primo step di ogni percorso" },
+        { "@type": "PropertyValue", "name": "Durata massima", "value": "60 minuti" },
+        { "@type": "PropertyValue", "name": "Sede", "value": "Via Magenta 7/F, Torino" },
+        { "@type": "PropertyValue", "name": "Disclaimer medico", "value": "Servizi con finalità estetiche/cosmetiche. Non sono atti medici; in presenza di red flag si invita a rivolgersi a uno specialista." }
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Primo accesso",
+          "price": "0.00",
+          "priceCurrency": "EUR",
+          "category": "free"
+        },
+        {
+          "@type": "Offer",
+          "name": "Accessi successivi",
+          "price": "70.00",
+          "priceCurrency": "EUR",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": 70,
+            "priceCurrency": "EUR",
+            "unitCode": "HUR"
+          }
+        }
+      ]
+    },
+
+    {
+      "@type": "Service",
+      "@id": "https://tricharmeofficial.com/#service-purete",
+      "name": "Tricharmé Pureté — Rituali detox capillari e purificazione",
+      "serviceType": "Purificazione cute e capelli",
+      "description": "Libera da tossine, impurità, sebo e residui; detersione mirata e attivi vegetali riequilibranti per leggerezza e freschezza.",
+      "category": "Mi piaccio",
+      "isRelatedTo": { "@id": "https://tricharmeofficial.com/#percorso" },
+      "provider": { "@id": "https://tricharmeofficial.com/#localbusiness" },
+      "areaServed": "Torino, Italy",
+      "url": "https://tricharmeofficial.com/mi-piaccio/tricharme-purete-torino/",
+      "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/tricharme-purete-torino-trattamenti-purificanti.webp",
+      "termsOfService": "https://tricharmeofficial.com/disclaimer-medico-tricharme/",
+      "additionalProperty": [
+        { "@type": "PropertyValue", "name": "Colore palette", "value": "Voile #ECE7E2" },
+        { "@type": "PropertyValue", "name": "Rituale d'accesso", "value": "Richiede Tricovisage" },
+        { "@type": "PropertyValue", "name": "Sessioni", "value": "Personalizzate" }
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Percorso personalizzato",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": 0,
+            "priceCurrency": "EUR",
+            "priceType": "https://schema.org/Estimate"
+          },
+          "availability": "https://schema.org/InStoreOnly"
+        }
+      ]
+    },
+
+    {
+      "@type": "Service",
+      "@id": "https://tricharmeofficial.com/#service-renaissance",
+      "name": "Tricharmé Renaissance — Ricostruzione capillare",
+      "serviceType": "Ricostruzione fibra capillare",
+      "description": "Rigenera la fibra dall'interno, ricompatta le cuticole e restituisce forza, corposità e luminosità.",
+      "category": "Mi piaccio",
+      "isRelatedTo": { "@id": "https://tricharmeofficial.com/#percorso" },
+      "provider": { "@id": "https://tricharmeofficial.com/#localbusiness" },
+      "areaServed": "Torino, Italy",
+      "url": "https://tricharmeofficial.com/mi-piaccio/tricharme-renaissance-torino/",
+      "image": "https://tricharmeofficial.com/wp-content/uploads/2025/08/rituale-renaissance-tricharme-torino.webp",
+      "termsOfService": "https://tricharmeofficial.com/disclaimer-medico-tricharme/",
+      "additionalProperty": [
+        { "@type": "PropertyValue", "name": "Colore palette", "value": "Lumière #F4EDE6" },
+        { "@type": "PropertyValue", "name": "Sessioni", "value": "Personalizzate" }
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Percorso personalizzato",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": 0,
+            "priceCurrency": "EUR",
+            "priceType": "https://schema.org/Estimate"
+          }
+        }
+      ]
+    },
+
+    {
+      "@type": "Service",
+      "@id": "https://tricharmeofficial.com/#service-elixir",
+      "name": "Tricharmé Élixir — Idratazione intensa",
+      "serviceType": "Nutrimento/idratazione cute e fibra",
+      "description": "Dona morbidezza ed elasticità immediata alla fibra e comfort al cuoio capelluto, per una setosità luminosa.",
+      "category": "Mi piaccio",
+      "isRelatedTo": { "@id": "https://tricharmeofficial.com/#percorso" },
+      "provider": { "@id": "https://tricharmeofficial.com/#localbusiness" },
+      "areaServed": "Torino, Italy",
+      "url": "https://tricharmeofficial.com/mi-piaccio/tricharme-elixir-torino/",
+      "image": "https://tricharmeofficial.com/wp-content/uploads/2025/08/tricharme-elixir-logo-trasparente.webp",
+      "termsOfService": "https://tricharmeofficial.com/disclaimer-medico-tricharme/",
+      "additionalProperty": [
+        { "@type": "PropertyValue", "name": "Colore palette", "value": "Velours #C4A69F" },
+        { "@type": "PropertyValue", "name": "Sessioni", "value": "Personalizzate" }
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Percorso personalizzato",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": 0,
+            "priceCurrency": "EUR",
+            "priceType": "https://schema.org/Estimate"
+          }
+        }
+      ]
+    },
+
+    {
+      "@type": "Service",
+      "@id": "https://tricharmeofficial.com/#service-vitalite",
+      "name": "Tricharmé Vitalité — Anticaduta e rinforzo radici",
+      "serviceType": "Stimolo microcircolazione e vitalità bulbare",
+      "description": "Energizza la radice, fortifica il capello e risveglia il tono del cuoio capelluto.",
+      "category": "Mi piaccio",
+      "isRelatedTo": { "@id": "https://tricharmeofficial.com/#percorso" },
+      "provider": { "@id": "https://tricharmeofficial.com/#localbusiness" },
+      "areaServed": "Torino, Italy",
+      "url": "https://tricharmeofficial.com/mi-piaccio/tricharme-vitalite-torino/",
+      "image": "https://tricharmeofficial.com/wp-content/uploads/2025/08/tricharme-vitalite-logo-trasparente.webp",
+      "termsOfService": "https://tricharmeofficial.com/disclaimer-medico-tricharme/",
+      "additionalProperty": [
+        { "@type": "PropertyValue", "name": "Colore palette", "value": "Écorce #7B5E57" },
+        { "@type": "PropertyValue", "name": "Sessioni", "value": "Personalizzate" }
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Percorso personalizzato",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": 0,
+            "priceCurrency": "EUR",
+            "priceType": "https://schema.org/Estimate"
+          }
+        }
+      ]
+    },
+
+    {
+      "@type": "Service",
+      "@id": "https://tricharmeofficial.com/#service-couleur",
+      "name": "Tricharmé Couleur — Colore personalizzato e protettivo",
+      "serviceType": "Colorimetria cosmetica",
+      "description": "Esalta brillantezza e durata del colore, preservando morbidezza e integrità della fibra.",
+      "category": "Mi piaccio",
+      "isRelatedTo": { "@id": "https://tricharmeofficial.com/#percorso" },
+      "provider": { "@id": "https://tricharmeofficial.com/#localbusiness" },
+      "areaServed": "Torino, Italy",
+      "url": "https://tricharmeofficial.com/mi-piaccio/tricharme-couleur-torino/",
+      "image": "https://tricharmeofficial.com/wp-content/uploads/2025/08/tricharme-couleur-logo-trasparente.webp",
+      "termsOfService": "https://tricharmeofficial.com/disclaimer-medico-tricharme/",
+      "additionalProperty": [
+        { "@type": "PropertyValue", "name": "Colore palette", "value": "Racine #4A342E" },
+        { "@type": "PropertyValue", "name": "Sessioni", "value": "Personalizzate" }
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Percorso personalizzato",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": 0,
+            "priceCurrency": "EUR",
+            "priceType": "https://schema.org/Estimate"
+          }
+        }
+      ]
+    },
+
+    {
+      "@type": "Service",
+      "@id": "https://tricharmeofficial.com/#service-armocromia",
+      "name": "Armocromia — Analisi cromatica",
+      "serviceType": "Identité Visuelle®",
+      "description": "Analisi cromatica professionale con drappi per definire la palette personale che illumina volto e sguardo.",
+      "category": "Mi riconosco",
+      "isRelatedTo": { "@id": "https://tricharmeofficial.com/#percorso" },
+      "provider": { "@id": "https://tricharmeofficial.com/#localbusiness" },
+      "areaServed": "Torino, Italy",
+      "url": "https://tricharmeofficial.com/mi-riconosco/analisi-cromatica-armocromia-a-torino/",
+      "termsOfService": "https://tricharmeofficial.com/disclaimer-medico-tricharme/",
+      "offers": [
+        {
+          "@type": "Offer",
+          "price": "150.00",
+          "priceCurrency": "EUR",
+          "category": "fixed"
+        },
+        {
+          "@type": "Offer",
+          "name": "Follow-up / extra",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": 0,
+            "priceCurrency": "EUR",
+            "priceType": "https://schema.org/Estimate"
+          }
+        }
+      ],
+      "additionalProperty": [
+        { "@type": "PropertyValue", "name": "Sessioni", "value": "Personalizzate" }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://tricharmeofficial.com/#service-silhouette",
+      "name": "Analisi della Silhouette",
+      "serviceType": "Identité Visuelle®",
+      "description": "Consapevolezza visiva di proporzioni e volumi; linee guida pratiche su tagli, tessuti, abbinamenti e accessori.",
+      "category": "Mi riconosco",
+      "isRelatedTo": { "@id": "https://tricharmeofficial.com/#percorso" },
+      "provider": { "@id": "https://tricharmeofficial.com/#localbusiness" },
+      "areaServed": "Torino, Italy",
+      "url": "https://tricharmeofficial.com/mi-riconosco/analisi-Silhouette-torino",
+      "termsOfService": "https://tricharmeofficial.com/disclaimer-medico-tricharme/",
+      "offers": [
+        {
+          "@type": "Offer",
+          "price": "80.00",
+          "priceCurrency": "EUR",
+          "category": "fixed"
+        },
+        {
+          "@type": "Offer",
+          "name": "Percorsi avanzati",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": 0,
+            "priceCurrency": "EUR",
+            "priceType": "https://schema.org/Estimate"
+          }
+        }
+      ],
+      "additionalProperty": [
+        { "@type": "PropertyValue", "name": "Sessioni", "value": "Personalizzate" }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://tricharmeofficial.com/#service-makeup",
+      "name": "Make-up Signature — Trucco facile, veloce, efficace",
+      "serviceType": "Identité Visuelle®",
+      "description": "Make-up personalizzato per la vita reale: tonalità e tecniche coerenti con la stagione cromatica e lo stile.",
+      "category": "Mi riconosco",
+      "isRelatedTo": { "@id": "https://tricharmeofficial.com/#percorso" },
+      "provider": { "@id": "https://tricharmeofficial.com/#localbusiness" },
+      "areaServed": "Torino, Italy",
+      "url": "https://tricharmeofficial.com/mi-riconosco/make-up-signature",
+      "termsOfService": "https://tricharmeofficial.com/disclaimer-medico-tricharme/",
+      "offers": [
+        {
+          "@type": "Offer",
+          "price": "80.00",
+          "priceCurrency": "EUR",
+          "category": "fixed"
+        },
+        {
+          "@type": "Offer",
+          "name": "Lezione/prova extra",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": 0,
+            "priceCurrency": "EUR",
+            "priceType": "https://schema.org/Estimate"
+          }
+        }
+      ],
+      "additionalProperty": [
+        { "@type": "PropertyValue", "name": "Sessioni", "value": "Personalizzate" }
+      ]
+    }
+  ]
+}

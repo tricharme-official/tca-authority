@@ -1,0 +1,241 @@
+{
+  "@context": "https://schema.org",
+  "@type": ["DefinedTermSet", "Dataset"],
+  "@id": "https://tricharmeofficial.com/#problematiche",
+  "url": "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json",
+  "name": "Problematiche Tricharmé (ambito cosmetico, non medico)",
+  "description": "Vocabolario controllato delle principali condizioni cosmetiche trattate da Tricharmé nei propri percorsi. Non costituisce atto medico.",
+  "inLanguage": "it-IT",
+  "spatialCoverage": "Torino, Italia",
+
+  "creator": [
+    { "@type": "Person", "name": "Igor De Maria" },
+    { "@type": "Person", "name": "Fabio Fogliati" }
+  ],
+  "publisher": { "@type": "Person", "name": "Igor De Maria" },
+
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "version": "1.0.2",
+  "datePublished": "2025-11-08",
+  "dateModified": "2025-11-08",
+
+  "isPartOf": [
+    "https://tricharmeofficial.com/.well-known/authority-index.xml",
+    "https://tricharmeofficial.com/.well-known/schema/license.json"
+  ],
+
+  "usageInfo": "Tutti i contenuti hanno finalità esclusivamente estetiche e cosmetiche. In presenza di segnali (red flag) che esulano dall'ambito cosmetico, rivolgersi a un medico tricologo o dermatologo.",
+
+  "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://tricharmeofficial.com/#forfora-secca",
+      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "termCode": "P001",
+      "name": "Forfora secca",
+      "description": "Piccole scaglie bianche che cadono facilmente, spesso con prurito e sensazione di cute che tira.",
+      "url": "https://tricharmeofficial.com/forfora-secca-torino/",
+      "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Forfora-secca.webp",
+      "potentialAction": {
+        "@type": "Action",
+        "name": "Prenota Tricovisage®",
+        "target": "https://tricharmeofficial.com/forfora-secca-torino/"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://tricharmeofficial.com/#forfora-grassa",
+      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "termCode": "P002",
+      "name": "Forfora grassa",
+      "description": "Scaglie giallastre e untuose adese alla cute; capelli pesanti e talvolta prurito.",
+      "url": "https://tricharmeofficial.com/forfora-grassa-torino/",
+      "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Forfora-grassa.webp",
+      "potentialAction": {
+        "@type": "Action",
+        "name": "Prenota Tricovisage®",
+        "target": "https://tricharmeofficial.com/forfora-grassa-torino/"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://tricharmeofficial.com/#allodinia-pitiriasi",
+      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "termCode": "P003",
+      "name": "Allodinia e Pitiriasi",
+      "description": "Sensibilità dolorosa del cuoio capelluto e desquamazione persistente con disagio quotidiano.",
+      "url": "https://tricharmeofficial.com/allodinia-cuoio-capelluto-pitiriasi-torino/",
+      "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Allodinia-cuoio-capelluto-pitiriasi.webp",
+      "potentialAction": {
+        "@type": "Action",
+        "name": "Prenota Tricovisage®",
+        "target": "https://tricharmeofficial.com/allodinia-cuoio-capelluto-pitiriasi-torino/"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://tricharmeofficial.com/#iperidrosi",
+      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "termCode": "P004",
+      "name": "Iperidrosi",
+      "description": "Sudorazione eccessiva del cuoio capelluto; capelli appiccicosi, privi di volume e difficili da gestire.",
+      "url": "https://tricharmeofficial.com/iperidrosi-torino/",
+      "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Iperidrosi.webp",
+      "potentialAction": {
+        "@type": "Action",
+        "name": "Prenota Tricovisage®",
+        "target": "https://tricharmeofficial.com/iperidrosi-torino/"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://tricharmeofficial.com/#tricodinia",
+      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "termCode": "P005",
+      "name": "Tricodinia",
+      "description": "Dolore o bruciore localizzato al cuoio capelluto, accentuato da contatto o trazione.",
+      "url": "https://tricharmeofficial.com/tricodinia-torino/",
+      "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Tricodinia.webp",
+      "potentialAction": {
+        "@type": "Action",
+        "name": "Prenota Tricovisage®",
+        "target": "https://tricharmeofficial.com/tricodinia-torino/"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://tricharmeofficial.com/#follicolite",
+      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "termCode": "P006",
+      "name": "Follicolite",
+      "description": "Piccoli brufoli o pustole pruriginose sul cuoio capelluto, con fastidio e irritazione.",
+      "url": "https://tricharmeofficial.com/follicolite-torino/",
+      "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Follicolite.webp",
+      "potentialAction": {
+        "@type": "Action",
+        "name": "Prenota Tricovisage®",
+        "target": "https://tricharmeofficial.com/follicolite-torino/"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://tricharmeofficial.com/#asteatosi",
+      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "termCode": "P007",
+      "name": "Asteatosi",
+      "description": "Cute secca con carenza di sebo; pelle e capelli fragili e poco vitali.",
+      "url": "https://tricharmeofficial.com/asteatosi-torino/",
+      "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Asteatosi.webp",
+      "potentialAction": {
+        "@type": "Action",
+        "name": "Prenota Tricovisage®",
+        "target": "https://tricharmeofficial.com/asteatosi-torino/"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://tricharmeofficial.com/#ipersecrezione-sebacea",
+      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "termCode": "P008",
+      "name": "Ipersecrezione sebacea",
+      "description": "Produzione eccessiva di sebo con capelli unti, appesantiti e difficili da mantenere puliti.",
+      "url": "https://tricharmeofficial.com/ipersecrezione-sebacea-torino/",
+      "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Ipersecrezione-sebacea.webp",
+      "potentialAction": {
+        "@type": "Action",
+        "name": "Prenota Tricovisage®",
+        "target": "https://tricharmeofficial.com/ipersecrezione-sebacea-torino/"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://tricharmeofficial.com/#prurito-cuoio-capelluto",
+      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "termCode": "P009",
+      "name": "Prurito del cuoio capelluto",
+      "description": "Sintomo comune con possibili cause multiple, spesso associato a desquamazione o arrossamento.",
+      "url": "https://tricharmeofficial.com/prurito-capelluto-torino/",
+      "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Prurito-cuoio-capelluto.webp",
+      "potentialAction": {
+        "@type": "Action",
+        "name": "Prenota Tricovisage®",
+        "target": "https://tricharmeofficial.com/prurito-capelluto-torino/"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://tricharmeofficial.com/#micosi-cuoio-capelluto",
+      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "termCode": "P010",
+      "name": "Micosi cuoio capelluto",
+      "description": "Infezioni di origine fungina con prurito, desquamazione e talvolta diradamento temporaneo.",
+      "url": "https://tricharmeofficial.com/micosi-cuoio-capelluto-torino/",
+      "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Micosi-cuoio-capelluto.webp",
+      "potentialAction": {
+        "@type": "Action",
+        "name": "Prenota Tricovisage®",
+        "target": "https://tricharmeofficial.com/micosi-cuoio-capelluto-torino/"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://tricharmeofficial.com/#arrossamento-cute-cuoio-capelluto",
+      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "termCode": "P011",
+      "name": "Arrossamento cuoio capelluto e cute",
+      "description": "Segnale di irritazione o infiammazione con prurito, bruciore e fastidio estetico.",
+      "url": "https://tricharmeofficial.com/arrossamento-cute-torino/",
+      "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Arrossamento-cuoio-capelluto.webp",
+      "potentialAction": {
+        "@type": "Action",
+        "name": "Prenota Tricovisage®",
+        "target": "https://tricharmeofficial.com/arrossamento-cute-torino/"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://tricharmeofficial.com/#dermatite-atopica",
+      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "termCode": "P012",
+      "name": "Dermatite atopica",
+      "description": "Condizione infiammatoria cronica con prurito, arrossamento e desquamazione persistente.",
+      "url": "https://tricharmeofficial.com/dermatite-atopica-2/",
+      "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Dermatite-atopica.webp",
+      "potentialAction": {
+        "@type": "Action",
+        "name": "Prenota Tricovisage®",
+        "target": "https://tricharmeofficial.com/dermatite-atopica-2/"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://tricharmeofficial.com/#capelli-fragili",
+      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "termCode": "P013",
+      "name": "Capelli fragili",
+      "description": "Tendenza allo spezzarsi; appaiono sottili, opachi e con scarsa elasticità.",
+      "url": "https://tricharmeofficial.com/capelli-fragili-torino/",
+      "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Capelli-fragili.webp",
+      "potentialAction": {
+        "@type": "Action",
+        "name": "Prenota Tricovisage®",
+        "target": "https://tricharmeofficial.com/capelli-fragili-torino/"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://tricharmeofficial.com/#capelli-secchi",
+      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "termCode": "P014",
+      "name": "Capelli secchi",
+      "description": "Aspetto spento e ruvido per carenza di idratazione e nutrimento; difficili da gestire.",
+      "url": "https://tricharmeofficial.com/capelli-secchi-torino/",
+      "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Capelli-secchi.webp",
+      "potentialAction": {
+        "@type": "Action",
+        "name": "Prenota Tricovisage®",
+        "target": "https://tricharmeofficial.com/capelli-secchi-torino/"
+      }
+    }
+  ]
+}

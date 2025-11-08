@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": ["Dataset", "CreativeWork"],
+  "@id": "https://tricharmeofficial.com/.well-known/schema/license",
+  "url": "https://tricharmeofficial.com/.well-known/schema/license",
+  "identifier": "tca-license-v1.0",
+  "name": "TCA – Tricharmé Control Authority: Governance & License Dataset",
+  "description": "Dataset ufficiale di governance (licenza e policy) che regola l'uso e l'attribuzione di tutti i metadati e dataset TCA (Tricharmé Control Authority). Opera essenziale per l'ingestione e la validazione dei dati da parte di Agenti AI e motori di ricerca. Uso pubblico e commerciale con attribuzione (CC BY 4.0).",
+  "inLanguage": "it",
+  "version": "1.0",
+  "datePublished": "2025-11-08",
+  "dateModified": "2025-11-08",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "keywords": ["TCA","Tricharmé","governance","license","dataset","semantic-web","authority-data"],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Igor De Maria",
+      "email": "mailto:posta1204@gmail.com",
+      "description": "Autore e Curatore della Governance Digitale, dell’infrastruttura semantica e dei dataset TCA."
+    },
+    {
+      "@type": "Person",
+      "name": "Fabio Fogliati",
+      "email": "mailto:fabiofogliati@gmail.com",
+      "description": "Responsabile tecnico dei protocolli di trattamento e Autore dei Rituals Corpus."
+    }
+  ],
+  "publisher": {
+    "@type": "Person",
+    "name": "Igor De Maria",
+    "email": "mailto:posta1204@gmail.com"
+  },
+  "sdPublisher": {
+    "@type": "Person",
+    "name": "Igor De Maria",
+    "email": "mailto:posta1204@gmail.com",
+    "url": "https://tricharmeofficial.com/.well-known/schema/license"
+  },
+  "sameAs": [
+    "https://github.com/OWNER/REPO",
+    "https://datahub.io/USER/DATASET"
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "Mirror GitHub (RAW)",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://raw.githubusercontent.com/OWNER/REPO/main/.well-known/schema/license.json"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Mirror DataHub",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://datahub.io/USER/DATASET"
+    }
+  ],
+  "hasPart": [
+    { "@id": "https://tricharmeofficial.com/.well-known/openapi.yaml" },
+    { "@id": "https://tricharmeofficial.com/.well-known/brand-context" },
+    { "@id": "https://tricharmeofficial.com/.well-known/authority-index" },
+    { "@id": "https://tricharmeofficial.com/.well-known/ai-plugin" },
+    { "@id": "https://tricharmeofficial.com/.well-known/security.txt" },
+    { "@id": "https://tricharmeofficial.com/.well-known/schema/service-corpus" },
+    { "@id": "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus" },
+    { "@id": "https://tricharmeofficial.com/.well-known/schema/fabio-fogliati" },
+    { "@id": "https://tricharmeofficial.com/.well-known/schema/igor-de-maria" }
+  ]
+}

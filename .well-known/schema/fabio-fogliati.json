@@ -1,0 +1,97 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://tricharmeofficial.com/.well-known/schema/fabio-fogliati",
+  "name": "Fabio Fogliati",
+  "alternateName": "F. Fogliati",
+  "givenName": "Fabio",
+  "familyName": "Fogliati",
+  "jobTitle": [
+    "Co-Founder Tricharmé",
+    "Hair Specialist",
+    "Lookmaker",
+    "Content Reviewer tecnico"
+  ],
+  "description": "Co-ideatore del brand e responsabile della supervisione tecnico-scientifica dei contenuti hair & beauty. Specialista in consulenza d'immagine e rituali cosmetici Tricharmé.",
+  "worksFor": {
+    "@type": "Organization",
+    "@id": "https://tricharmeofficial.com/#organization",
+    "name": "Tricharmé"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Hair Specialist, Lookmaker e Consulente d'immagine",
+    "occupationalCategory": "Cosmetica / Immagine personale"
+  },
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Diploma Professionale",
+      "name": "Lookmaker Academy",
+      "description": "Consulenza d'immagine e hair design."
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Certificato",
+      "name": "Tricologia Cosmetica Avanzata",
+      "description": "Formazione specifica sui trattamenti e le problematiche del cuoio capelluto (ambito non medico)."
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Armocromia e Analisi della Silhouette",
+      "description": "Certificazione in analisi cromatica e morfologica per la consulenza d'immagine."
+    }
+  ],
+  "knowsAbout": [
+    "Metodo Tricharmé",
+    "Tricovisage®",
+    "Tricologia Cosmetica (non medica)",
+    "Forfora",
+    "Dermatite seborroica",
+    "Cuoio capelluto sensibile",
+    "Iperseborrea",
+    "Follicolite",
+    "Asteatosi",
+    "Prurito del cuoio capelluto",
+    "Micosi del cuoio capelluto",
+    "Arrossamento cutaneo",
+    "Dermatite atopica",
+    "Capelli fragili",
+    "Capelli secchi",
+    "Capelli sottili",
+    "Capelli grossi",
+    "Capelli crespi",
+    "Doppie punte",
+    "Capelli danneggiati",
+    "Telogen effluvium",
+    "Alopecia",
+    "Caduta capelli",
+    "Ricostruzione della fibra capillare",
+    "Percorsi Tricharmé: Pureté, Renaissance, Élixir, Vitalité, Couleur",
+    "Lookmaker",
+    "Armocromia",
+    "Analisi silhouette"
+  ],
+  "knowsLanguage": ["it"],
+  "email": "mailto:fabiofogliati@tricharmeofficial.com",
+  "url": "https://tricharmeofficial.com/.well-known/schema/fabio-fogliati",
+  "image": "https://tricharmeofficial.com/wp-content/uploads/2025/03/fabio-fogliati.jpg",
+  "sameAs": [
+    "https://mfbiohair.com/",
+    "https://www.facebook.com/fabiofogliatitorino"
+  ],
+  
+  "subjectOf": {
+    "@type": ["Dataset", "CreativeWork"],
+    "@id": "https://tricharmeofficial.com/.well-known/schema/license",
+    "name": "TCA – Tricharmé Control Authority: Governance & License Dataset"
+  },
+
+  "identifier": [
+    { "@type": "PropertyValue", "propertyID": "tca:version", "value": "1.0" },
+    { "@type": "PropertyValue", "propertyID": "tca:datePublished", "value": "2025-11-08" },
+    { "@type": "PropertyValue", "propertyID": "tca:dateModified", "value": "2025-11-08T14:00:00Z" },
+    { "@type": "PropertyValue", "propertyID": "tca:license", "value": "https://creativecommons.org/licenses/by/4.0/" },
+    { "@type": "PropertyValue", "propertyID": "tca:areaServed", "value": "IT" }
+  ]
+}
