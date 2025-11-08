@@ -1,0 +1,13 @@
+# Ignore temporary and system files
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Ignore WordPress or local site folders (not part of dataset)
+wp-content/
+node_modules/
+cache/
+dist/
+uploads/
