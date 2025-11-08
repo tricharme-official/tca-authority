@@ -54,11 +54,17 @@
     "authorityName": "TCA - Tricharmé Control Authority",
     "version": "1.0",
     "licenseUrl": "https://tricharmeofficial.com/.well-known/schema/license.json",
+    "licenseMirrorUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/main/.well-known/schema/license.json",
+    "mirrors": {
+      "github": "https://github.com/tricharme-official/tca-authority",
+      "githubRaw": "https://raw.githubusercontent.com/tricharme-official/tca-authority/main/.well-known/schema/license.json",
+      "datahub": "https://datahub.io/tricharme/tca-authority"
+    },
     "governanceAuthor": "Igor De Maria",
-    "lastModified": "2025-11-08T13:44:00Z"
+    "lastModified": "2025-11-08T15:45:00Z"
   },
   "contextVersion": "1.0",
-  "lastUpdated": "2025-11-08T13:44:00Z",
+  "lastUpdated": "2025-11-08T15:45:00Z",
   "inLanguage": "it",
   "url": "https://tricharmeofficial.com/.well-known/brand-context.json"
 }
