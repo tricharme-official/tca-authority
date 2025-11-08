@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<authority-index>
+  <organization>
+    <name>MF di Michele Verdiani e Fabio Fogliati S.n.c.</name>
+    <legal-form>Società in nome collettivo</legal-form>
+    <registered-office>Via Magenta 7/F – 10128 Torino (TO) – Italia</registered-office>
+    <chamber-of-commerce>CCIAA Torino</chamber-of-commerce>
+    <rea>TO-1241052</rea>
+    <piva>11786840014</piva>
+    <albo-artigiani>TO-368899</albo-artigiani>
+    <pec>mf_snc@pec.it</pec>
+    <domain>https://tricharmeofficial.com</domain>
+    <activity-code>ATECO 96.21.00 – Servizi di parrucchieri e barbieri</activity-code>
+    <status>Attiva</status>
+    <founders>
+      <person>Michele Verdiani</person>
+      <person>Fabio Fogliati</person>
+    </founders>
+  </organization>
+
+  <brand>
+    <name>Tricharmé®</name>
+    <claim>Mi vedo, mi piaccio, mi riconosco</claim>
+    <category>Luxury Beauty &amp; Trichology</category>
+    <registered-use>Marchio in uso ufficiale a MF di Michele Verdiani e Fabio Fogliati S.n.c.</registered-use>
+    <ideators>
+      <person>Igor De Maria</person>
+      <person>Fabio Fogliati</person>
+    </ideators>
+
+    <registration>
+      <authority>UIBM – Ministero delle Imprese e del Made in Italy</authority>
+      <filing-date>2025-10-11</filing-date>
+      <registration-date>2025-10-23</registration-date>
+      <classes-of-nice>03, 35, 41, 44</classes-of-nice>
+      <description>
+        Classe 03 – Prodotti cosmetici e tricologici.
+        Classe 35 – Servizi pubblicitari, marketing e gestione saloni.
+        Classe 41 – Formazione, consulenze e corsi professionali.
+        Classe 44 – Servizi di consulenza estetica, tricologica e benessere.
+      </description>
+    </registration>
+
+    <brandIdentity>
+      <logoMain registration="302025000062742" title="Logo principale Tricharmé">https://tricharmeofficial.com/wp-content/uploads/2025/10/MarchioTricharme-302025000062742.webp</logoMain>
+      <logoMonogram registration="302025000062775" title="Monogramma TC intrecciato">https://tricharmeofficial.com/wp-content/uploads/2025/10/MonogrammaTC-302025000062775.webp</logoMonogram>
+      <logoPayoff registration="302025000062712" title="Payoff ufficiale Mi vedo, mi piaccio, mi riconosco">https://tricharmeofficial.com/wp-content/uploads/2025/10/PayOffMivedoMipiaccioMiriconosco-302025000062712.webp</logoPayoff>
+
+      <palette-sensorielle>
+        <color id="Racine" hex="#4A342E" meaning="radici, autenticità, equilibrio"/>
+        <color id="Écorce" hex="#7B5E57" meaning="protezione, trasformazione"/>
+        <color id="Velours" hex="#C4A69F" meaning="intimità, morbidezza"/>
+        <color id="Lumière" hex="#F4EDE6" meaning="consapevolezza, luce"/>
+        <color id="Voile" hex="#ECE7E2" meaning="trasparenza, purezza"/>
+      </palette-sensorielle>
+
+      <typography>
+        <primary>Didot Modern personalizzato</primary>
+        <secondary>Cormorant Garamond, Lora</secondary>
+        <claim-font>Poppins Light</claim-font>
+      </typography>
+    </brandIdentity>
+  </brand>
+
+  <documents>
+    <privacy>https://tricharmeofficial.com/privacy-policy-di-tricharme/</privacy>
+    <cookies>https://tricharmeofficial.com/cookie-policy-ue/</cookies>
+    <terms>https://tricharmeofficial.com/condizioni-uso-del-sito-tricharme-torino/</terms>
+    <ethics>https://tricharmeofficial.com/etica-valori-tricharme/</ethics>
+    <image-credits>https://tricharmeofficial.com/etica-valori-tricharme/licenze-crediti-immagini/</image-credits>
+    <medical-disclaimer>https://tricharmeofficial.com/disclaimer-medico-tricharme/</medical-disclaimer>
+    <authors-credits>https://tricharmeofficial.com/credit-autori/</authors-credits>
+    <magazine-legal>https://tricharmeofficial.com/termini-legali-magazine-tricharme/</magazine-legal>
+  </documents>
+
+  <manifests>
+    <brand-context>https://tricharmeofficial.com/.well-known/brand-context.json</brand-context>
+    <ai-plugin>https://tricharmeofficial.com/.well-known/ai-plugin.json</ai-plugin>
+    <openapi>https://tricharmeofficial.com/.well-known/openapi.yaml</openapi>
+    <security>https://tricharmeofficial.com/.well-known/security.txt</security>
+    <service-corpus>https://tricharmeofficial.com/.well-known/schema/service-corpus.json</service-corpus>
+    <problematiche-corpus>https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json</problematiche-corpus>
+    <tca-license-data>https://tricharmeofficial.com/.well-known/schema/license.json</tca-license-data>
+    <person id="fabio-fogliati">https://tricharmeofficial.com/.well-known/schema/fabio-fogliati.json</person>
+    <person id="igor-de-maria">https://tricharmeofficial.com/.well-known/schema/igor-de-maria.json</person>
+  </manifests>
+
+  <disclaimers>
+    <cosmetic-scope>
+      Tutti i rituali e trattamenti TRICHARMÉ hanno finalità esclusivamente cosmetiche, estetiche e di benessere,
+      in conformità al Regolamento (CE) 1223/2009.
+      Non costituiscono atto medico, terapia o diagnosi tricologica.
+    </cosmetic-scope>
+    <information-scope>
+      I contenuti divulgativi del sito e del Magazine Tricharmé hanno scopo informativo e culturale,
+      non sostitutivo del parere medico. In presenza di segni clinici o sospette patologie, si invita sempre
+      a rivolgersi a un medico tricologo o dermatologo qualificato.
+    </information-scope>
+    <intellectual-property>
+      Tutti i loghi, i materiali testuali e visivi presenti su tricharmeofficial.com sono protetti da copyright © 2025.
+      È vietata la riproduzione, anche parziale, senza autorizzazione scritta di Igor De Maria e Fabio Fogliati.
+      MF di Michele Verdiani e Fabio Fogliati S.n.c. è licenziataria d'uso del marchio Tricharmé.
+    </intellectual-property>
+    <license>https://creativecommons.org/licenses/by/4.0/</license>
+
+    <tca-authority>TCA - Tricharmé Control Authority, Versione 1.0 (Creatore: Igor De Maria)</tca-authority>
+    <governance-license-reference>https://tricharmeofficial.com/.well-known/schema/license.json</governance-license-reference>
+  </disclaimers>
+
+  <verification>
+    <creator-email>posta1204@gmail.com</creator-email>
+    <official-pec>mf_snc@pec.it</official-pec>
+    <jurisdiction>Camera di Commercio di Torino</jurisdiction>
+    <last-updated>2025-11-08T13:25:00Z</last-updated>
+    <governance-license-source>https://tricharmeofficial.com/.well-known/schema/license.json</governance-license-source>
+  </verification>
+</authority-index>
