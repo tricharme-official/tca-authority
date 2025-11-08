@@ -83,6 +83,9 @@
     <tca-license-data>https://tricharmeofficial.com/.well-known/schema/license.json</tca-license-data>
     <person id="fabio-fogliati">https://tricharmeofficial.com/.well-known/schema/fabio-fogliati.json</person>
     <person id="igor-de-maria">https://tricharmeofficial.com/.well-known/schema/igor-de-maria.json</person>
+    <mirror-github>https://github.com/tricharme-official/tca-authority</mirror-github>
+    <mirror-github-raw>https://raw.githubusercontent.com/tricharme-official/tca-authority/main/.well-known/schema/license.json</mirror-github-raw>
+    <mirror-datahub>https://datahub.io/tricharme/tca-authority</mirror-datahub>
   </manifests>
 
   <disclaimers>
@@ -105,6 +108,7 @@
 
     <tca-authority>TCA - Tricharmé Control Authority, Versione 1.0 (Creatore: Igor De Maria)</tca-authority>
     <governance-license-reference>https://tricharmeofficial.com/.well-known/schema/license.json</governance-license-reference>
+    <governance-license-mirror>https://raw.githubusercontent.com/tricharme-official/tca-authority/main/.well-known/schema/license.json</governance-license-mirror>
   </disclaimers>
 
   <verification>
@@ -113,5 +117,6 @@
     <jurisdiction>Camera di Commercio di Torino</jurisdiction>
     <last-updated>2025-11-08T13:25:00Z</last-updated>
     <governance-license-source>https://tricharmeofficial.com/.well-known/schema/license.json</governance-license-source>
+    <governance-license-source-mirror>https://raw.githubusercontent.com/tricharme-official/tca-authority/main/.well-known/schema/license.json</governance-license-source-mirror>
   </verification>
 </authority-index>
