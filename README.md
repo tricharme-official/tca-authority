@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/tricharme-official/tca-authority/blob/main/README_IT.md">
+  <a href="https://github.com/tricharme-official/tca-authority/blob/main/HOME-IT.md">
     <img src="https://img.shields.io/badge/🌍%20Read%20in-Italiano%20🇮🇹-C4A69F" alt="Read in Italian">
   </a>
   <a href="https://github.com/tricharme-official/tca-authority/blob/main/README.md">
@@ -16,6 +16,34 @@
   <em>Official Semantic Dataset & Governance System</em><br/>
   Authority Layer for AI Indexing · Brand Validation · Knowledge Graph Integration
 </p>
+
+---
+
+### 🩰 Vision
+**Tricharmé Control Authority (TCA)** is the official *semantic governance system* of the **Tricharmé®** brand.  
+It defines identity, licensing, protocols, and validated datasets for AI indexing and semantic interoperability across web, search engines, and intelligent agents.
+
+All datasets are synchronized with the `.well-known` manifests hosted at  
+➡️ [https://tricharmeofficial.com/.well-known/](https://tricharmeofficial.com/.well-known/)
+
+---
+
+### 📄 Semantic Architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 
