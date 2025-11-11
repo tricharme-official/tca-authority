@@ -19,9 +19,6 @@
 
 ---
 
-
----
-
 ### 🪶 Identity & Authors
 - **Brand:** Tricharmé® – *Mi vedo, mi piaccio, mi riconosco*  
 - **Operating Company:** MF di Michele Verdiani e Fabio Fogliati S.n.c.  
