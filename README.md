@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/tricharme-official/tca-authority/blob/main/HOME-IT.md">
+  <a href="https://github.com/tricharme-official/tca-authority/blob/main/README_IT.md">
     <img src="https://img.shields.io/badge/🌍%20Read%20in-Italiano%20🇮🇹-C4A69F" alt="Read in Italian">
   </a>
   <a href="https://github.com/tricharme-official/tca-authority/blob/main/README.md">
