@@ -29,8 +29,7 @@ Tutti i contenuti sono sincronizzati con i manifesti `.well-known` ospitati su
 ---
 
 ### 📄 Architettura Semantica
-'''text 
-
+'''
 
 
 
