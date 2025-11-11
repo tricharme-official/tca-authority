@@ -28,23 +28,21 @@ All datasets are synchronized with the `.well-known` manifests hosted at
 
 ---
 
-### 📄 Semantic Architecture
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### 📄 Semantic Architecture `.well-known` Structure
+```text
+.well-known/
+├─ authority-index.xml
+├─ brand-context.json
+├─ ai-plugin.json
+├─ openapi.yaml
+├─ security.txt
+└─ schema/
+  ├─ service-corpus.json
+  ├─ problematiche-corpus.json
+  ├─ license.json
+  ├─ igor-de-maria.json
+  └─ fabio-fogliati.json
+```
 ---
 
 ### 🪶 Identity & Authors
