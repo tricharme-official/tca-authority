@@ -1,0 +1,6 @@
+Contact: mailto:amministrazione@tricharmeofficial.com
+Contact: mailto:mf_snc@pec.it
+Policy: https://tricharmeofficial.com/condizioni-uso-del-sito-tricharme-torino/
+Canonical: https://tricharmeofficial.com/.well-known/security.txt
+Expires: 2027-10-27T10:00:00Z
+Preferred-Languages: it
