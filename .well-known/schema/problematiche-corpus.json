@@ -7,25 +7,20 @@
   "description": "Vocabolario controllato delle principali condizioni cosmetiche trattate da Tricharmé nei propri percorsi. Non costituisce atto medico.",
   "inLanguage": "it-IT",
   "spatialCoverage": "Torino, Italia",
-
   "creator": [
     { "@type": "Person", "name": "Igor De Maria" },
     { "@type": "Person", "name": "Fabio Fogliati" }
   ],
   "publisher": { "@type": "Person", "name": "Igor De Maria" },
-
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "datePublished": "2025-11-08",
-  "dateModified": "2025-11-08",
-
+  "dateModified": "2025-11-15",
   "isPartOf": [
     "https://tricharmeofficial.com/.well-known/authority-index.xml",
     "https://tricharmeofficial.com/.well-known/schema/license.json"
   ],
-
   "usageInfo": "Tutti i contenuti hanno finalità esclusivamente estetiche e cosmetiche. In presenza di segnali (red flag) che esulano dall'ambito cosmetico, rivolgersi a un medico tricologo o dermatologo.",
-
   "hasDefinedTerm": [
     {
       "@type": "DefinedTerm",
@@ -33,7 +28,7 @@
       "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
       "termCode": "P001",
       "name": "Forfora secca",
-      "description": "Piccole scaglie bianche che cadono facilmente, spesso con prurito e sensazione di cute che tira.",
+      "description": "Piccole scaglie bianche e secche che cadono facilmente da cute e capelli, spesso associate a prurito e sensazione di pelle che tira.",
       "url": "https://tricharmeofficial.com/forfora-secca-torino/",
       "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Forfora-secca.webp",
       "potentialAction": {
@@ -48,7 +43,7 @@
       "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
       "termCode": "P002",
       "name": "Forfora grassa",
-      "description": "Scaglie giallastre e untuose adese alla cute; capelli pesanti e talvolta prurito.",
+      "description": "Scaglie giallastre, spesse e untuose, più aderenti alla cute; i capelli risultano appesantiti e poco puliti.",
       "url": "https://tricharmeofficial.com/forfora-grassa-torino/",
       "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Forfora-grassa.webp",
       "potentialAction": {
@@ -59,11 +54,11 @@
     },
     {
       "@type": "DefinedTerm",
-      "@id": "https://tricharmeofficial.com/#allodinia-pitiriasi",
+      "@id": "https://tricharmeofficial.com/#allodinia-cuoio-capelluto-pitiriasi",
       "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
       "termCode": "P003",
-      "name": "Allodinia e Pitiriasi",
-      "description": "Sensibilità dolorosa del cuoio capelluto e desquamazione persistente con disagio quotidiano.",
+      "name": "Allodinia cuoio capelluto pitiriasi",
+      "description": "Cute ipersensibile e dolente al tatto o al semplice movimento dei capelli, con desquamazione visibile e fastidio quotidiano.",
       "url": "https://tricharmeofficial.com/allodinia-cuoio-capelluto-pitiriasi-torino/",
       "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Allodinia-cuoio-capelluto-pitiriasi.webp",
       "potentialAction": {
@@ -74,11 +69,11 @@
     },
     {
       "@type": "DefinedTerm",
-      "@id": "https://tricharmeofficial.com/#iperidrosi",
+      "@id": "https://tricharmeofficial.com/#iperidrosi-cuoio-capelluto",
       "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
       "termCode": "P004",
-      "name": "Iperidrosi",
-      "description": "Sudorazione eccessiva del cuoio capelluto; capelli appiccicosi, privi di volume e difficili da gestire.",
+      "name": "Iperidrosi Cuoio Capelluto",
+      "description": "Sudorazione eccessiva del cuoio capelluto con sensazione di bagnato costante, capelli appiccicosi e perdita di volume.",
       "url": "https://tricharmeofficial.com/iperidrosi-torino/",
       "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Iperidrosi.webp",
       "potentialAction": {
@@ -93,7 +88,7 @@
       "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
       "termCode": "P005",
       "name": "Tricodinia",
-      "description": "Dolore o bruciore localizzato al cuoio capelluto, accentuato da contatto o trazione.",
+      "description": "Dolore, bruciore o fastidio localizzato al cuoio capelluto che si accentua con il contatto o la trazione dei capelli.",
       "url": "https://tricharmeofficial.com/tricodinia-torino/",
       "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Tricodinia.webp",
       "potentialAction": {
@@ -108,7 +103,7 @@
       "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
       "termCode": "P006",
       "name": "Follicolite",
-      "description": "Piccoli brufoli o pustole pruriginose sul cuoio capelluto, con fastidio e irritazione.",
+      "description": "Piccoli brufoli o pustole a livello dei follicoli, talvolta arrossati e pruriginosi, con sensazione di cute irritata.",
       "url": "https://tricharmeofficial.com/follicolite-torino/",
       "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Follicolite.webp",
       "potentialAction": {
@@ -123,7 +118,7 @@
       "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
       "termCode": "P007",
       "name": "Asteatosi",
-      "description": "Cute secca con carenza di sebo; pelle e capelli fragili e poco vitali.",
+      "description": "Cute povera di sebo, secca e spesso desquamata; capelli spenti, fragili e poco protetti dagli agenti esterni.",
       "url": "https://tricharmeofficial.com/asteatosi-torino/",
       "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Asteatosi.webp",
       "potentialAction": {
@@ -138,7 +133,7 @@
       "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
       "termCode": "P008",
       "name": "Ipersecrezione sebacea",
-      "description": "Produzione eccessiva di sebo con capelli unti, appesantiti e difficili da mantenere puliti.",
+      "description": "Produzione eccessiva di sebo che rende i capelli unti, pesanti e difficili da mantenere puliti a lungo.",
       "url": "https://tricharmeofficial.com/ipersecrezione-sebacea-torino/",
       "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Ipersecrezione-sebacea.webp",
       "potentialAction": {
@@ -149,11 +144,11 @@
     },
     {
       "@type": "DefinedTerm",
-      "@id": "https://tricharmeofficial.com/#prurito-cuoio-capelluto",
+      "@id": "https://tricharmeofficial.com/#prurito-del-cuoio-capelluto",
       "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
       "termCode": "P009",
-      "name": "Prurito del cuoio capelluto",
-      "description": "Sintomo comune con possibili cause multiple, spesso associato a desquamazione o arrossamento.",
+      "name": "Prurito del Cuoio Capelluto",
+      "description": "Sensazione di prurito più o meno intensa sulla cute, con possibili aree arrossate e presenza di scaglie o sebo.",
       "url": "https://tricharmeofficial.com/prurito-capelluto-torino/",
       "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Prurito-cuoio-capelluto.webp",
       "potentialAction": {
@@ -164,11 +159,11 @@
     },
     {
       "@type": "DefinedTerm",
-      "@id": "https://tricharmeofficial.com/#micosi-cuoio-capelluto",
+      "@id": "https://tricharmeofficial.com/#micosi-del-cuoio-capelluto",
       "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
       "termCode": "P010",
-      "name": "Micosi cuoio capelluto",
-      "description": "Infezioni di origine fungina con prurito, desquamazione e talvolta diradamento temporaneo.",
+      "name": "Micosi del Cuoio Capelluto",
+      "description": "Infezioni di origine fungina con prurito, desquamazione irregolare e possibile diradamento temporaneo dei capelli.",
       "url": "https://tricharmeofficial.com/micosi-cuoio-capelluto-torino/",
       "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Micosi-cuoio-capelluto.webp",
       "potentialAction": {
@@ -183,7 +178,7 @@
       "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
       "termCode": "P011",
       "name": "Arrossamento cuoio capelluto e cute",
-      "description": "Segnale di irritazione o infiammazione con prurito, bruciore e fastidio estetico.",
+      "description": "Cute visibilmente arrossata, calda o che brucia al tatto, segno di irritazione o infiammazione non necessariamente patologica.",
       "url": "https://tricharmeofficial.com/arrossamento-cute-torino/",
       "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Arrossamento-cuoio-capelluto.webp",
       "potentialAction": {
@@ -197,8 +192,8 @@
       "@id": "https://tricharmeofficial.com/#dermatite-atopica",
       "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
       "termCode": "P012",
-      "name": "Dermatite atopica",
-      "description": "Condizione infiammatoria cronica con prurito, arrossamento e desquamazione persistente.",
+      "name": "Dermatite Atopica",
+      "description": "Condizione infiammatoria cronica con prurito intenso, secchezza, arrossamento e possibili fissurazioni della cute.",
       "url": "https://tricharmeofficial.com/dermatite-atopica-2/",
       "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Dermatite-atopica.webp",
       "potentialAction": {
@@ -212,8 +207,8 @@
       "@id": "https://tricharmeofficial.com/#capelli-fragili",
       "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
       "termCode": "P013",
-      "name": "Capelli fragili",
-      "description": "Tendenza allo spezzarsi; appaiono sottili, opachi e con scarsa elasticità.",
+      "name": "Capelli Fragili",
+      "description": "Capelli che si spezzano facilmente, con poca elasticità, spesso opachi e con punte sfruttate.",
       "url": "https://tricharmeofficial.com/capelli-fragili-torino/",
       "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Capelli-fragili.webp",
       "potentialAction": {
@@ -227,14 +222,104 @@
       "@id": "https://tricharmeofficial.com/#capelli-secchi",
       "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
       "termCode": "P014",
-      "name": "Capelli secchi",
-      "description": "Aspetto spento e ruvido per carenza di idratazione e nutrimento; difficili da gestire.",
+      "name": "Capelli Secchi",
+      "description": "Capelli ruvidi, poco luminosi e difficili da districare, per carenza di idratazione e di sebo protettivo.",
       "url": "https://tricharmeofficial.com/capelli-secchi-torino/",
       "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Capelli-secchi.webp",
       "potentialAction": {
         "@type": "Action",
         "name": "Prenota Tricovisage®",
         "target": "https://tricharmeofficial.com/capelli-secchi-torino/"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://tricharmeofficial.com/#capelli-sottili",
+      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "termCode": "P015",
+      "name": "Capelli Sottili",
+      "description": "Fibra a diametro ridotto con poco corpo e volume, facilmente appiattita e più vulnerabile alle sollecitazioni meccaniche.",
+      "url": "https://tricharmeofficial.com/capelli-sottili-torino/",
+      "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Capelli-sottili.webp",
+      "potentialAction": {
+        "@type": "Action",
+        "name": "Prenota Tricovisage®",
+        "target": "https://tricharmeofficial.com/capelli-sottili-torino/"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://tricharmeofficial.com/#capelli-grossi",
+      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "termCode": "P016",
+      "name": "Capelli Grossi",
+      "description": "Capelli spessi e strutturati, spesso più rigidi, talvolta secchi e difficili da disciplinare o da mettere in piega.",
+      "url": "https://tricharmeofficial.com/capelli-grossi-torino/",
+      "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Capelli-grossi.webp",
+      "potentialAction": {
+        "@type": "Action",
+        "name": "Prenota Tricovisage®",
+        "target": "https://tricharmeofficial.com/capelli-grossi-torino/"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://tricharmeofficial.com/#capelli-crespi",
+      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "termCode": "P017",
+      "name": "Capelli Crespi",
+      "description": "Fusto irregolare e poroso con effetto crespo, poco controllo e scarsa lucentezza, soprattutto in presenza di umidità.",
+      "url": "https://tricharmeofficial.com/capelli-crespi-torino/",
+      "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Capelli-crespi.webp",
+      "potentialAction": {
+        "@type": "Action",
+        "name": "Prenota Tricovisage®",
+        "target": "https://tricharmeofficial.com/capelli-crespi-torino/"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://tricharmeofficial.com/#doppie-punte",
+      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "termCode": "P018",
+      "name": "Doppie punte",
+      "description": "Estremità del capello sdoppiate o sfibrate, tipiche di una fibra stressata da calore, chimica o sfregamento meccanico.",
+      "url": "https://tricharmeofficial.com/doppie-punte-torino/",
+      "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Doppie-punte.webp",
+      "potentialAction": {
+        "@type": "Action",
+        "name": "Prenota Tricovisage®",
+        "target": "https://tricharmeofficial.com/doppie-punte-torino/"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://tricharmeofficial.com/#capelli-danneggiati",
+      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "termCode": "P019",
+      "name": "Capelli Danneggiati",
+      "description": "Fibra compromessa da colorazioni, decolorazioni, calore o agenti esterni; capelli opachi, ruvidi e facilmente spezzati.",
+      "url": "https://tricharmeofficial.com/capelli-danneggiati-torino/",
+      "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Capelli-daneggiati.webp",
+      "potentialAction": {
+        "@type": "Action",
+        "name": "Prenota Tricovisage®",
+        "target": "https://tricharmeofficial.com/capelli-danneggiati-torino/"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://tricharmeofficial.com/#caduta-capelli",
+      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "termCode": "P020",
+      "name": "Caduta Capelli",
+      "description": "Aumento percepito dei capelli che si staccano, con possibile riduzione di densità e impatto estetico ed emotivo importante.",
+      "url": "https://tricharmeofficial.com/caduta-capelli-torino/",
+      "image": "https://tricharmeofficial.com/wp-content/uploads/2025/09/Telogen-effluvium-caduta-capelli.webp",
+      "potentialAction": {
+        "@type": "Action",
+        "name": "Prenota Tricovisage®",
+        "target": "https://tricharmeofficial.com/caduta-capelli-torino/"
       }
     }
   ]
