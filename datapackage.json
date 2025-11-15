@@ -1,0 +1,46 @@
+{
+  "name": "tricharme-tca-authority",
+  "title": "TCA – Tricharmé Control Authority Dataset",
+  "description": "Official semantic dataset for AI indexing, brand governance and authority validation for the Tricharmé ecosystem.",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "resources": [
+    { "path": "authority-index.xml", "format": "xml", "mediatype": "application/xml" },
+    { "path": "brand-context.json", "format": "json", "mediatype": "application/json" },
+    { "path": "ai-plugin.json", "format": "json", "mediatype": "application/json" },
+    { "path": "openapi.yaml", "format": "yaml", "mediatype": "text/yaml" },
+    { "path": "security.txt", "format": "txt", "mediatype": "text/plain" },
+    { "path": "schema/fabio-fogliati.json", "format": "json" },
+    { "path": "schema/igor-de-maria.json", "format": "json" },
+    { "path": "schema/service-corpus.json", "format": "json" },
+    { "path": "schema/problematiche-corpus.json", "format": "json" },
+    { "path": "schema/license.json", "format": "json" }
+  ],
+  "keywords": [
+    "tricharme",
+    "tca",
+    "authority",
+    "semantic-web",
+    "ai-dataset",
+    "brand-governance",
+    "json-ld",
+    "cosmetica"
+  ],
+  "homepage": "https://tricharmeofficial.com/.well-known/authority-index.xml",
+  "sources": [
+    {
+      "title": "Tricharmé Official Website",
+      "path": "https://tricharmeofficial.com/"
+    }
+  ],
+  "contributors": [
+    { "title": "Igor De Maria", "role": "Author & Governance Lead" },
+    { "title": "Fabio Fogliati", "role": "Technical Editor & Hair Specialist" }
+  ]
+}
