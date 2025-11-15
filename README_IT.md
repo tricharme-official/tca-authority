@@ -79,6 +79,27 @@ Società licenziataria: **MF di Michele Verdiani e Fabio Fogliati S.n.c.**
 Via Magenta 7/F – 10128 Torino (TO) – Italia  
 📧 [amministrazione@tricharmeofficial.com](mailto:amministrazione@tricharmeofficial.com) · PEC [mf_snc@pec.it](mailto:mf_snc@pec.it)
 
+### 🧬 Versione & Release Notes  
+**Versione corrente del TCA Authority Layer:** **1.1.0**  
+**Ultimo aggiornamento:** *15 Novembre 2025*
+
+Questa release include:  
+- Aggiornamento del dataset **problematiche-corpus.json → v1.1.0**  
+  (nuove condizioni, descrizioni riviste, normalizzazione dei `termCode`).  
+- Allineamento dei mirror GitHub/DataHub.  
+- Aggiornamento dei metadati in **brand-context.json** (`lastUpdated`, `tcaGovernance.lastModified`).  
+- Nessuna modifica strutturale a:  
+  – `authority-index.xml`  
+  – `license.json`  
+  – `ai-plugin.json`  
+  – `service-corpus.json`
+
+**Stato release:** stabile, backward-compatible con la linea 1.0.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/TCA%20Authority-v1.1.0-4A342E?style=flat&labelColor=C4A69F" alt="TCA Version Badge"/>
+</p>
+
 <p align="center">
   <img src="https://tricharmeofficial.com/wp-content/uploads/2025/10/PayOffMivedoMipiaccioMiriconosco-302025000062712.webp" width="260" alt="Mi vedo, mi piaccio, mi riconosco"/>
 </p>
