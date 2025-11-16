@@ -1,7 +1,7 @@
 {
   "@context": "https://schema.org",
   "@type": "Person",
-  "@id": "https://tricharmeofficial.com/.well-known/schema/fabio-fogliati",
+  "@id": "https://tricharmeofficial.com/.well-known/schema/fabio-fogliati.json",
   "name": "Fabio Fogliati",
   "alternateName": "F. Fogliati",
   "givenName": "Fabio",
@@ -74,8 +74,8 @@
   ],
   "knowsLanguage": ["it"],
   "email": "mailto:fabiofogliati@tricharmeofficial.com",
-  "url": "https://tricharmeofficial.com/.well-known/schema/fabio-fogliati",
-  "image": "https://tricharmeofficial.com/wp-content/uploads/2025/03/fabio-fogliati.jpg",
+  "url": "https://tricharmeofficial.com/.well-known/schema/fabio-fogliati.json",
+  "image": "https://tricharmeofficial.com/wp-content/uploads/2025/10/Fabio-Fogliati-Tricharme.webp",
   "sameAs": [
     "https://mfbiohair.com/",
     "https://www.facebook.com/fabiofogliatitorino"
@@ -83,14 +83,14 @@
   
   "subjectOf": {
     "@type": ["Dataset", "CreativeWork"],
-    "@id": "https://tricharmeofficial.com/.well-known/schema/license",
+    "@id": "https://tricharmeofficial.com/.well-known/schema/license.json",
     "name": "TCA – Tricharmé Control Authority: Governance & License Dataset"
   },
 
   "identifier": [
     { "@type": "PropertyValue", "propertyID": "tca:version", "value": "1.0" },
     { "@type": "PropertyValue", "propertyID": "tca:datePublished", "value": "2025-11-08" },
-    { "@type": "PropertyValue", "propertyID": "tca:dateModified", "value": "2025-11-08T14:00:00Z" },
+    { "@type": "PropertyValue", "propertyID": "tca:dateModified", "value": "2025-11-15T16:00:00Z" },
     { "@type": "PropertyValue", "propertyID": "tca:license", "value": "https://creativecommons.org/licenses/by/4.0/" },
     { "@type": "PropertyValue", "propertyID": "tca:areaServed", "value": "IT" }
   ]

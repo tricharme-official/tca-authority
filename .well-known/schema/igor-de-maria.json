@@ -1,7 +1,7 @@
 {
   "@context": "https://schema.org",
   "@type": "Person",
-  "@id": "https://tricharmeofficial.com/.well-known/schema/igor-de-maria",
+  "@id": "https://tricharmeofficial.com/.well-known/schema/igor-de-maria.json",
   "name": "Igor De Maria",
   "alternateName": "I. De Maria",
   "givenName": "Igor",
@@ -66,21 +66,21 @@
   ],
   "knowsLanguage": ["it", "en"],
   "email": "mailto:igordemaria@tricharmeofficial.com",
-  "url": "https://tricharmeofficial.com/.well-known/schema/igor-de-maria",
-  "image": "https://tricharmeofficial.com/wp-content/uploads/2025/03/igor-de-maria.jpg",
+  "url": "https://tricharmeofficial.com/.well-known/schema/igor-de-maria.json",
+  "image": "https://tricharmeofficial.com/wp-content/uploads/2025/10/igor-de-maria-tricharme.webp",
   "sameAs": [
     "https://www.facebook.com/igor.demaria.96",
     "https://it.linkedin.com/in/igor-de-maria-490a81157"
   ],
   "subjectOf": {
     "@type": ["Dataset", "CreativeWork"],
-    "@id": "https://tricharmeofficial.com/.well-known/schema/license",
+    "@id": "https://tricharmeofficial.com/.well-known/schema/license.json",
     "name": "TCA – Tricharmé Control Authority: Governance & License Dataset"
   },
   "identifier": [
     { "@type": "PropertyValue", "propertyID": "tca:version", "value": "1.0" },
     { "@type": "PropertyValue", "propertyID": "tca:datePublished", "value": "2025-11-08" },
-    { "@type": "PropertyValue", "propertyID": "tca:dateModified", "value": "2025-11-08T14:00:00Z" },
+    { "@type": "PropertyValue", "propertyID": "tca:dateModified", "value": "2025-11-15T16:00:00Z" },
     { "@type": "PropertyValue", "propertyID": "tca:license", "value": "https://creativecommons.org/licenses/by/4.0/" },
     { "@type": "PropertyValue", "propertyID": "tca:areaServed", "value": "IT" }
   ]
