@@ -54,11 +54,10 @@
     "authorityName": "TCA - Tricharmé Control Authority",
     "version": "1.0",
     "licenseUrl": "https://tricharmeofficial.com/.well-known/schema/license.json",
-    "licenseMirrorUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/main/.well-known/schema/license.json",
+    "licenseMirrorUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/refs/heads/main/.well-known/schema/license.json",
     "mirrors": {
       "github": "https://github.com/tricharme-official/tca-authority",
-      "githubRaw": "https://raw.githubusercontent.com/tricharme-official/tca-authority/main/.well-known/schema/license.json",
-      "datahub": "https://datahub.io/tricharme/tca-authority"
+      "githubRaw": "https://raw.githubusercontent.com/tricharme-official/tca-authority/refs/heads/main/.well-known/schema/license.json"
     },
     "governanceAuthor": "Igor De Maria",
     "lastModified": "2025-11-15T16:00:00Z"
