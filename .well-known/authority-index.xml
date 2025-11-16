@@ -84,8 +84,7 @@
     <person id="fabio-fogliati">https://tricharmeofficial.com/.well-known/schema/fabio-fogliati.json</person>
     <person id="igor-de-maria">https://tricharmeofficial.com/.well-known/schema/igor-de-maria.json</person>
     <mirror-github>https://github.com/tricharme-official/tca-authority</mirror-github>
-    <mirror-github-raw>https://raw.githubusercontent.com/tricharme-official/tca-authority/main/.well-known/schema/license.json</mirror-github-raw>
-    <mirror-datahub>https://datahub.io/tricharme/tca-authority</mirror-datahub>
+    <mirror-github-raw>https://raw.githubusercontent.com/tricharme-official/tca-authority/refs/heads/main/.well-known/schema/license.json</mirror-github-raw>
   </manifests>
 
   <disclaimers>
