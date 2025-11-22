@@ -1,78 +1,101 @@
-Contributor Covenant Code of Conduct – Tricharmé TCA Edition
-Our Pledge
+Contributor Covenant Code of Conduct
 
-We, as members, contributors, and leaders of the Tricharmé Control Authority (TCA) ecosystem, pledge to maintain a respectful, harassment-free environment for everyone — regardless of age, gender identity, personal expression, background, or professional experience.
-We commit to act and interact in ways that foster openness, inclusion, and professionalism consistent with the values of Tricharmé® — Mi vedo, mi piaccio, mi riconosco.
+Tricharmé Control Authority (TCA) — Edition 2.0
 
-Our Standards
+1. Our Commitment
 
-Examples of positive behavior include:
+As contributors, maintainers, and members of the Tricharmé Control Authority (TCA) ecosystem, we are committed to fostering a professional, respectful, and harassment-free environment.
+We aim to preserve the integrity, reliability, and long-term consistency of all TCA datasets, documentation, and semantic structures.
 
-Demonstrating empathy and professionalism toward other contributors
+2. Our Standards
 
-Being respectful of differing opinions, approaches, and creative perspectives
+Positive, expected behaviours include:
 
-Giving and accepting constructive feedback gracefully
+Acting with professionalism, clarity, and mutual respect
 
-Taking responsibility and learning from mistakes
+Being receptive to ideas, technical alternatives, and structured feedback
 
-Prioritizing the well-being of the community and the integrity of shared data
+Owning mistakes and correcting them promptly
 
-Unacceptable behavior includes:
+Prioritising the quality, consistency, security, and governance of shared data
 
-Harassment, discrimination, or hate speech of any kind
+Collaborating in ways that strengthen the TCA ecosystem
 
-Personal attacks, trolling, or publishing private information without consent
+Unacceptable behaviours include:
 
-Using sexualized or violent language or imagery
+Harassment, discrimination, or hate speech
 
-Any conduct that disrupts the purpose or governance of the project
+Personal attacks or aggressive language
 
-Enforcement Responsibilities
+Publishing private or confidential information without permission
 
-Community leaders are responsible for clarifying standards and enforcing them consistently. They may edit, remove, or reject comments, commits, issues, or pull requests that violate this Code of Conduct.
-All moderation actions must align with the TCA – Governance & License Dataset v1.0.
+Spamming, trolling, or intentionally disrupting project governance
 
-Scope
+Actions that compromise data integrity, versioning, or semantic compliance
 
-This Code applies to all project spaces (GitHub, DataHub mirrors, internal documentation) and whenever an individual represents the TCA community in public or digital environments.
+3. Enforcement Responsibilities
 
-Enforcement
+Project maintainers are responsible for:
 
-Reports of unacceptable behavior should be sent to:
+Defining and upholding behavioural standards
+
+Taking corrective action in response to unacceptable behaviour
+
+Editing, removing, or rejecting comments, commits, issues, or pull requests that violate this Code
+
+Applying all guidelines in alignment with the TCA – Governance & License Dataset (v2.0.0)
+
+4. Scope
+
+This Code applies to:
+
+GitHub repositories and discussions
+
+Official TCA datasets published under /.well-known/
+
+Documentation, issues, pull requests, mirrors and public communication
+
+Any context where an individual is representing or interacting with the TCA ecosystem
+
+5. Reporting
+
+To report a violation, contact:
+
 📧 amministrazione@tricharmeofficial.com
 
 PEC: mf_snc@pec.it
 
-All reports will be handled promptly, confidentially, and in accordance with the TCA’s data governance and privacy principles. Retaliation against reporters is strictly prohibited.
+Reports will be handled promptly, confidentially, and without retaliation.
+Any attempt to penalize someone for reporting will result in enforcement action.
 
-Enforcement Guidelines
-1. Correction
+6. Enforcement Guidelines
 
-Impact: Inappropriate language or isolated unprofessional behavior.
-Consequence: Private written warning with clarification and education.
+To ensure predictable and fair governance, violations may lead to the following actions:
 
-2. Warning
+Level 1 — Correction
 
-Impact: Repeated or significant breach of conduct.
-Consequence: Temporary restriction from participation and communication.
+Impact: Minor, isolated inappropriate behaviour
+Consequence: Private written notice with clarification
 
-3. Temporary Ban
+Level 2 — Warning
 
-Impact: Sustained or intentional disruption or harassment.
-Consequence: Temporary suspension from all TCA communication channels.
+Impact: Repeated or significant violations
+Consequence: Temporary participation restrictions
 
-4. Permanent Ban
+Level 3 — Temporary Ban
 
-Impact: Persistent violation or severe ethical breach.
-Consequence: Permanent removal from the project and public acknowledgment of enforcement.
+Impact: Continuous or intentional disruption
+Consequence: Temporary suspension from all TCA communication channels
 
-Attribution
+Level 4 — Permanent Ban
 
-Adapted from the Contributor Covenant, version 2.0
-.
-Community Impact Guidelines inspired by Mozilla’s code of conduct enforcement ladder
-.
+Impact: Severe, harmful, or repeated unethical misconduct
+Consequence: Permanent removal from the project
 
-© 2025 Tricharmé® — TCA (Tricharmé Control Authority).
+7. Attribution
+
+This Code of Conduct is based on the Contributor Covenant v2.0.
+Enforcement model inspired by Mozilla’s “Community Participation Guidelines”.
+
+© 2025 Tricharmé® — Tricharmé Control Authority (TCA)
 License: CC BY 4.0
