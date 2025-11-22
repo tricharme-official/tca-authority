@@ -1,1 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:schema="https://schema.org/"
+    xmlns:tca="https://tricharmeofficial.com/.well-known/ns/tca#"
+    xml:base="https://tricharmeofficial.com/.well-known/ns/tca">
 
+  <!-- =========================================================
+       TCA – Tricharmé Control Authority Vocabulary
+       Ontology IRI: https://tricharmeofficial.com/.well-known/ns/tca
+       Namespace:    https://tricharmeofficial.com/.well-known/ns/tca#
+       Versione:     2.0.0
+       ========================================================= -->
+
+  <owl:Ontology rdf:about="https://tricharmeofficial.com/.well-known/ns/tca">
+    <rdfs:label xml:lang="it">Vocabolario TCA – Tricharmé Control Authority</rdfs:label>
+    <rdfs:label xml:lang="en">TCA Vocabulary – Tricharmé Control Authority</rdfs:label>
+
+    <owl:versionInfo>2.0.0</owl:versionInfo>
+
+    <dcterms:creator>Igor De Maria</dcterms:creator>
+    <dcterms:contributor>Fabio Fogliati</dcterms:contributor>
+
+    <dcterms:description xml:lang="it">
+      Vocabolario proprietario per descrivere lo strato di autorità TCA:
+      indici centrali, statistiche di sistema, hub legale e metadati di governance.
+    </dcterms:description>
+
+    <dcterms:description xml:lang="en">
+      Proprietary vocabulary used to describe the TCA authority layer:
+      central index, system stats, legal hub and governance metadata.
+    </dcterms:description>
+
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:issued rdf:datatype="xsd:dateTime">2025-11-20T00:00:00Z</dcterms:issued>
+    <dcterms:modified rdf:datatype="xsd:dateTime">2025-11-20T00:00:00Z</dcterms:modified>
+  </owl:Ontology>
+
+  <!-- =====================
+       CLASSI PRINCIPALI
+       ===================== -->
+
+  <owl:Class rdf:about="https://tricharmeofficial.com/.well-known/ns/tca#SystemStats">
+    <rdfs:label xml:lang="it">Statistiche di Sistema TCA</rdfs:label>
+    <rdfs:label xml:lang="en">TCA System Stats</rdfs:label>
+    <rdfs:comment xml:lang="it">
+      Statistiche aggregate del sistema TCA (dataset totali, record totali, versione del sistema).
+    </rdfs:comment>
+    <rdfs:comment xml:lang="en">
+      Aggregated statistics of the TCA system (total datasets, total records, system version).
+    </rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://tricharmeofficial.com/.well-known/ns/tca#LegalHub">
+    <rdfs:label xml:lang="it">Hub Legale TCA</rdfs:label>
+    <rdfs:label xml:lang="en">TCA Legal Hub</rdfs:label>
+    <rdfs:comment xml:lang="it">
+      Contenitore logico che aggrega le principali pagine legali e policy.
+    </rdfs:comment>
+    <rdfs:comment xml:lang="en">
+      Logical container aggregating the main legal and policy pages.
+    </rdfs:comment>
+  </owl:Class>
+
+  <owl:Class rdf:about="https://tricharmeofficial.com/.well-known/ns/tca#LegalDocument">
+    <rdfs:label xml:lang="it">Documento Legale TCA</rdfs:label>
+    <rdfs:label xml:lang="en">TCA Legal Document</rdfs:label>
+    <rdfs:comment xml:lang="it">Documento legale o policy collegato all’ecosistema Tricharmé.</rdfs:comment>
+    <rdfs:comment xml:lang="en">Legal or policy document linked to the Tricharmé ecosystem.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://schema.org/CreativeWork"/>
+  </owl:Class>
+
+  <!-- =====================
+       OBJECT PROPERTIES
+       ===================== -->
+
+  <owl:ObjectProperty rdf:about="https://tricharmeofficial.com/.well-known/ns/tca#systemStats">
+    <rdfs:label xml:lang="it">statistiche di sistema</rdfs:label>
+    <rdfs:label xml:lang="en">system stats</rdfs:label>
+    <rdfs:domain rdf:resource="https://schema.org/Dataset"/>
+    <rdfs:range rdf:resource="https://tricharmeofficial.com/.well-known/ns/tca#SystemStats"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://tricharmeofficial.com/.well-known/ns/tca#legalHub">
+    <rdfs:label xml:lang="it">hub legale</rdfs:label>
+    <rdfs:label xml:lang="en">legal hub</rdfs:label>
+    <rdfs:domain rdf:resource="https://schema.org/Dataset"/>
+    <rdfs:range rdf:resource="https://tricharmeofficial.com/.well-known/ns/tca#LegalHub"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="https://tricharmeofficial.com/.well-known/ns/tca#legalDocument">
+    <rdfs:label xml:lang="it">documento legale</rdfs:label>
+    <rdfs:label xml:lang="en">legal document</rdfs:label>
+    <rdfs:domain rdf:resource="https://tricharmeofficial.com/.well-known/ns/tca#LegalHub"/>
+    <rdfs:range rdf:resource="https://tricharmeofficial.com/.well-known/ns/tca#LegalDocument"/>
+  </owl:ObjectProperty>
+
+  <!-- NUOVA: matchProfile per i vocabolari -->
+
+  <owl:ObjectProperty rdf:about="https://tricharmeofficial.com/.well-known/ns/tca#matchProfile">
+    <rdfs:label xml:lang="it">profilo di match</rdfs:label>
+    <rdfs:label xml:lang="en">match profile</rdfs:label>
+    <rdfs:domain rdf:resource="https://schema.org/DefinedTerm"/>
+    <rdfs:range rdf:resource="https://schema.org/PropertyValue"/>
+    <rdfs:comment xml:lang="it">
+      Collega un termine del vocabolario TCA a uno o più profili di match (PropertyValue) verso le problematiche Pxxx.
+    </rdfs:comment>
+    <rdfs:comment xml:lang="en">
+      Links a TCA vocabulary term to one or more match profiles (PropertyValue) pointing to Pxxx issues.
+    </rdfs:comment>
+  </owl:ObjectProperty>
+
+  <!-- =====================
+       DATATYPE PROPERTIES
+       ===================== -->
+
+  <owl:DatatypeProperty rdf:about="https://tricharmeofficial.com/.well-known/ns/tca#genre">
+    <rdfs:label xml:lang="it">genere TCA</rdfs:label>
+    <rdfs:label xml:lang="en">TCA genre</rdfs:label>
+    <rdfs:domain rdf:resource="https://schema.org/Dataset"/>
+    <rdfs:range rdf:resource="xsd:string"/>
+    <rdfs:subPropertyOf rdf:resource="https://schema.org/genre"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://tricharmeofficial.com/.well-known/ns/tca#status">
+    <rdfs:label xml:lang="it">stato TCA</rdfs:label>
+    <rdfs:label xml:lang="en">TCA status</rdfs:label>
+    <rdfs:domain rdf:resource="https://schema.org/CreativeWork"/>
+    <rdfs:range rdf:resource="xsd:string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://tricharmeofficial.com/.well-known/ns/tca#recordCount">
+    <rdfs:label xml:lang="it">numero record</rdfs:label>
+    <rdfs:label xml:lang="en">record count</rdfs:label>
+    <rdfs:domain rdf:resource="https://schema.org/Dataset"/>
+    <rdfs:range rdf:resource="xsd:integer"/>
+  </owl:DatatypeProperty>
+
+  <!-- URL mirror (es. GitHub RAW) associato a un dataset TCA -->
+  <owl:DatatypeProperty rdf:about="https://tricharmeofficial.com/.well-known/ns/tca#mirrorUrl">
+    <rdfs:label xml:lang="it">URL mirror</rdfs:label>
+    <rdfs:label xml:lang="en">mirror URL</rdfs:label>
+    <rdfs:domain rdf:resource="https://schema.org/Dataset"/>
+    <rdfs:range rdf:resource="xsd:anyURI"/>
+    <rdfs:comment xml:lang="it">URL alternativo (es. GitHub RAW) del dataset TCA.</rdfs:comment>
+    <rdfs:comment xml:lang="en">Alternative URL (e.g. GitHub RAW) for the TCA dataset.</rdfs:comment>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://tricharmeofficial.com/.well-known/ns/tca#totalDatasets">
+    <rdfs:label xml:lang="it">totale dataset</rdfs:label>
+    <rdfs:label xml:lang="en">total datasets</rdfs:label>
+    <rdfs:domain rdf:resource="https://tricharmeofficial.com/.well-known/ns/tca#SystemStats"/>
+    <rdfs:range rdf:resource="xsd:integer"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://tricharmeofficial.com/.well-known/ns/tca#totalRecords">
+    <rdfs:label xml:lang="it">totale record</rdfs:label>
+    <rdfs:label xml:lang="en">total records</rdfs:label>
+    <rdfs:domain rdf:resource="https://tricharmeofficial.com/.well-known/ns/tca#SystemStats"/>
+    <rdfs:range rdf:resource="xsd:integer"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://tricharmeofficial.com/.well-known/ns/tca#systemVersion">
+    <rdfs:label xml:lang="it">versione sistema TCA</rdfs:label>
+    <rdfs:label xml:lang="en">TCA system version</rdfs:label>
+    <rdfs:domain rdf:resource="https://tricharmeofficial.com/.well-known/ns/tca#SystemStats"/>
+    <rdfs:range rdf:resource="xsd:string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://tricharmeofficial.com/.well-known/ns/tca#documentName">
+    <rdfs:label xml:lang="it">nome documento</rdfs:label>
+    <rdfs:label xml:lang="en">document name</rdfs:label>
+    <rdfs:domain rdf:resource="https://tricharmeofficial.com/.well-known/ns/tca#LegalDocument"/>
+    <rdfs:range rdf:resource="xsd:string"/>
+    <rdfs:subPropertyOf rdf:resource="https://schema.org/name"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://tricharmeofficial.com/.well-known/ns/tca#documentUrl">
+    <rdfs:label xml:lang="it">URL documento</rdfs:label>
+    <rdfs:label xml:lang="en">document URL</rdfs:label>
+    <rdfs:domain rdf:resource="https://tricharmeofficial.com/.well-known/ns/tca#LegalDocument"/>
+    <rdfs:range rdf:resource="xsd:anyURI"/>
+    <rdfs:subPropertyOf rdf:resource="https://schema.org/url"/>
+  </owl:DatatypeProperty>
+
+  <!-- Metadati allineati a PropertyValue (tca:version, tca:datePublished, ecc.) -->
+
+  <owl:DatatypeProperty rdf:about="https://tricharmeofficial.com/.well-known/ns/tca#version">
+    <rdfs:label xml:lang="it">versione TCA</rdfs:label>
+    <rdfs:label xml:lang="en">TCA version</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="https://schema.org/version"/>
+    <rdfs:range rdf:resource="xsd:string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://tricharmeofficial.com/.well-known/ns/tca#datePublished">
+    <rdfs:label xml:lang="it">data pubblicazione TCA</rdfs:label>
+    <rdfs:label xml:lang="en">TCA datePublished</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="https://schema.org/datePublished"/>
+    <rdfs:range rdf:resource="xsd:dateTime"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://tricharmeofficial.com/.well-known/ns/tca#dateModified">
+    <rdfs:label xml:lang="it">data modifica TCA</rdfs:label>
+    <rdfs:label xml:lang="en">TCA dateModified</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="https://schema.org/dateModified"/>
+    <rdfs:range rdf:resource="xsd:dateTime"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://tricharmeofficial.com/.well-known/ns/tca#license">
+    <rdfs:label xml:lang="it">licenza TCA</rdfs:label>
+    <rdfs:label xml:lang="en">TCA license</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="https://schema.org/license"/>
+    <rdfs:range rdf:resource="xsd:anyURI"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="https://tricharmeofficial.com/.well-known/ns/tca#areaServed">
+    <rdfs:label xml:lang="it">area servita TCA</rdfs:label>
+    <rdfs:label xml:lang="en">TCA areaServed</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="https://schema.org/areaServed"/>
+    <rdfs:range rdf:resource="xsd:string"/>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>
