@@ -1,74 +1,142 @@
-Contributing Guidelines – Tricharmé Control Authority (TCA)
+CONTRIBUTING.md – Tricharmé Control Authority (TCA)
 
-Thank you for your interest in contributing to the Tricharmé Control Authority (TCA) project.
-This repository hosts the official governance and semantic datasets of the Tricharmé® brand.
-All contributions must preserve the integrity, traceability, and AI-readiness of the .well-known data infrastructure.
+Version 2.0 — Governance-Aligned
 
-1. Purpose of the Repository
+Thank you for your interest in contributing to the Tricharmé Control Authority (TCA) repository.
+This space hosts the official semantic, governance, and authority datasets that power the AI-readiness of the Tricharmé® brand.
+Every contribution must preserve the integrity, consistency, and traceability of the entire .well-known data infrastructure.
 
-This repository contains the TCA semantic and governance datasets, designed to ensure:
+1. Purpose of This Repository
 
-Consistency between legal, editorial, and structured data;
+This repository contains authoritative datasets used by:
 
-Proper interlinking across .well-known manifests and authority indexes;
+AI systems and crawlers
 
-Public availability of verified datasets for AI crawlers and search engines.
+Search engines
 
-Core files include:
+Semantic processors
 
-/authority-index.xml
+Compliance validation layers
 
-/brand-context.json
+Its purpose is to ensure:
 
-/schema/license.json
+Full alignment across legal, editorial, and structured data
 
-/schema/service-corpus.json
+Stable interlinking between all manifests and authority indices
 
-/schema/problematiche-corpus.json
+Public, verifiable access to the TCA knowledge layer
+
+Core dataset files include:
+
+/.well-known/authority-index.xml
+
+/.well-known/brand-context.json
+
+/.well-known/schema/license.json
+
+/.well-known/schema/service-corpus.json
+
+/.well-known/schema/problematiche-corpus.json
+
+/.well-known/schema/vocabulary-corpus.json
+
+These files must remain valid, versioned, and compliant with TCA 2.0.0 governance.
 
 2. How to Contribute
+Opening an Issue
 
-Open an Issue only after confirming that the problem has not already been reported.
-Include: affected file, exact error or inconsistency, and your proposed fix.
+Before opening an Issue, verify that:
 
-Submit a Pull Request only after verifying that your edits are valid syntactically and semantically (JSON-LD, XML, YAML).
-Commit messages must be clear and descriptive, for example:
+The problem has not already been reported
 
-Fix: updated @context in brand-context.json to align with TCA v1.0
+The file and exact line/section affected are clearly identified
 
+Include in your report:
 
-Pull Requests will be reviewed by the TCA Maintainer (currently Igor De Maria) and must pass the full validation cycle:
-review → merge → license validation.
+Affected file path
+
+Exact error, inconsistency, or governance deviation
+
+Your proposed correction (if applicable)
+
+Submitting a Pull Request
+
+Pull Requests must meet the following requirements:
+
+All files must pass syntactic validation
+(JSON-LD, RDF/XML, YAML, XML)
+
+All changes must preserve semantic meaning
+No modifications that alter dataset purpose or break interlinking.
+
+Commit messages must be explicit and descriptive, e.g.:
+Fix: aligned tca:version in service-corpus.json to 2.0.0
+
+All PRs undergo this review pipeline:
+
+Technical and semantic review
+
+Validation against TCA governance rules
+
+Merge approval
+
+License and dataset compliance check
+
+The current maintainer responsible for final approval is Igor De Maria.
 
 3. Quality Standards
 
-All public files must return HTTP 200 OK and pass W3C / Schema.org validation.
+Contributions must adhere to the following quality criteria:
 
-Updates must preserve semantic consistency and version tracking (TCA v1.x).
+All files must return HTTP 200 OK when served publicly
 
-No medical, diagnostic, or non-cosmetic content is allowed.
+All datasets must pass W3C, Schema.org, and JSON-LD validation
 
-All descriptions must follow the “cosmetic, not medical” compliance rule.
+Changes must maintain:
 
-4. Governance and Licensing
+version integrity (tca:version)
 
-This project follows the TCA – Governance & License Dataset v1.0, under CC BY 4.0 License
-.
+modification timestamps
 
-Accepted contributions are considered “shared data with attribution” and may be redistributed within the TCA framework.
+dataset record counts (tca:recordCount) when applicable
 
-All interactions are subject to the Code of Conduct – Tricharmé TCA Edition.
+No medical or diagnostic claims may be introduced
+
+All descriptions must respect the compliance rule:
+“Cosmetic scope only — not medical, diagnostic, or therapeutic.”
+
+No removal or alteration of licensing metadata (CC BY 4.0)
+
+4. Governance & Licensing
+
+This project is governed by the TCA – Governance & License Dataset (v2.0.0)
+
+
+All accepted contributions:
+
+Are incorporated under CC BY 4.0
+
+Become part of the official Tricharmé® authority layer
+
+Must comply with the global governance of the .well-known data structure
+
+Are subject to the rules defined in the TCA Code of Conduct
 
 5. Official Contacts
 
-For inquiries or authorization requests:
+For governance inquiries, dataset alignment approvals, or license clarifications:
 
 📧 amministrazione@tricharmeofficial.com
 
 PEC: mf_snc@pec.it
 
-Governance reference:
+Authority Index (canonical reference):
 https://tricharmeofficial.com/.well-known/authority-index.xml
 
-© 2025 Tricharmé® — TCA (Tricharmé Control Authority)
-Maintained by Igor De Maria. Licensed under CC BY 4.0.
+
+
+Maintainer & Copyright
+
+© 2025 Tricharmé® — Tricharmé Control Authority (TCA)
+Maintained by Igor De Maria
+Licensed under CC BY 4.0
