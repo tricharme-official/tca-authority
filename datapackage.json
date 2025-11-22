@@ -1,8 +1,8 @@
 {
   "name": "tricharme-tca-authority",
   "title": "TCA – Tricharmé Control Authority Dataset",
-  "description": "Official semantic dataset for AI indexing, brand governance and authority validation for the Tricharmé ecosystem.",
-  "version": "1.0.0",
+  "description": "Official semantic and governance dataset for AI indexing, brand authority, and the Tricharmé Control Authority (TCA) ecosystem. Includes manifests, corpora, vocabularies, license metadata, and authority linking for AI and semantic engines.",
+  "version": "2.0.0",
   "licenses": [
     {
       "name": "CC-BY-4.0",
@@ -11,16 +11,61 @@
     }
   ],
   "resources": [
-    { "path": "authority-index.xml", "format": "xml", "mediatype": "application/xml" },
-    { "path": "brand-context.json", "format": "json", "mediatype": "application/json" },
-    { "path": "ai-plugin.json", "format": "json", "mediatype": "application/json" },
-    { "path": "openapi.yaml", "format": "yaml", "mediatype": "text/yaml" },
-    { "path": "security.txt", "format": "txt", "mediatype": "text/plain" },
-    { "path": "schema/fabio-fogliati.json", "format": "json" },
-    { "path": "schema/igor-de-maria.json", "format": "json" },
-    { "path": "schema/service-corpus.json", "format": "json" },
-    { "path": "schema/problematiche-corpus.json", "format": "json" },
-    { "path": "schema/license.json", "format": "json" }
+    {
+      "path": "authority-index.xml",
+      "format": "xml",
+      "mediatype": "application/xml"
+    },
+    {
+      "path": "brand-context.json",
+      "format": "json",
+      "mediatype": "application/ld+json"
+    },
+    {
+      "path": "ai-plugin.json",
+      "format": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "path": "openapi.yaml",
+      "format": "yaml",
+      "mediatype": "text/yaml"
+    },
+    {
+      "path": "security.txt",
+      "format": "txt",
+      "mediatype": "text/plain"
+    },
+    {
+      "path": "schema/fabio-fogliati.json",
+      "format": "json",
+      "mediatype": "application/ld+json"
+    },
+    {
+      "path": "schema/igor-de-maria.json",
+      "format": "json",
+      "mediatype": "application/ld+json"
+    },
+    {
+      "path": "schema/service-corpus.json",
+      "format": "json",
+      "mediatype": "application/ld+json"
+    },
+    {
+      "path": "schema/problematiche-corpus.json",
+      "format": "json",
+      "mediatype": "application/ld+json"
+    },
+    {
+      "path": "schema/vocabulary-corpus.json",
+      "format": "json",
+      "mediatype": "application/ld+json"
+    },
+    {
+      "path": "schema/license.json",
+      "format": "json",
+      "mediatype": "application/ld+json"
+    }
   ],
   "keywords": [
     "tricharme",
@@ -30,7 +75,9 @@
     "ai-dataset",
     "brand-governance",
     "json-ld",
-    "cosmetica"
+    "rdf",
+    "cosmetica",
+    "knowledge-graph"
   ],
   "homepage": "https://tricharmeofficial.com/.well-known/authority-index.xml",
   "sources": [
@@ -40,7 +87,13 @@
     }
   ],
   "contributors": [
-    { "title": "Igor De Maria", "role": "Author & Governance Lead" },
-    { "title": "Fabio Fogliati", "role": "Technical Editor & Hair Specialist" }
+    {
+      "title": "Igor De Maria",
+      "role": "Author & Governance Lead"
+    },
+    {
+      "title": "Fabio Fogliati",
+      "role": "Technical Editor & Hair Specialist"
+    }
   ]
 }
