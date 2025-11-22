@@ -8,27 +8,35 @@
 </p>
 
 <p align="center">
-  <img src="https://tricharmeofficial.com/wp-content/uploads/2025/10/MonogrammaTC-302025000062775.webp" width="84" alt="Tricharmé Monogram"/>
+  <img src="https://tricharmeofficial.com/wp-content/uploads/2025/10/MonogrammaTC-302025000062775.webp" width="90" alt="Tricharmé Monogram"/>
 </p>
 
-<h1 align="center">🧠 TCA – Tricharmé Control Authority</h1>
+<h1 align="center">🧠 Tricharmé Control Authority (TCA)</h1>
 <p align="center">
-  <em>Official Semantic Dataset & Governance System</em><br/>
-  Authority Layer for AI Indexing · Brand Validation · Knowledge Graph Integration
+  <em>Official Semantic Authority Layer · AI Indexing · Brand Governance · Knowledge Graph Integration</em>
 </p>
 
 ---
 
-### 🩰 Vision
-**Tricharmé Control Authority (TCA)** is the official *semantic governance system* of the **Tricharmé®** brand.  
-It defines identity, licensing, protocols, and validated datasets for AI indexing and semantic interoperability across web, search engines, and intelligent agents.
+## 🩰 Vision  
+The **Tricharmé Control Authority (TCA)** is the official semantic governance system of the **Tricharmé®** brand.  
+It provides a unified, machine-readable framework used by:
 
-All datasets are synchronized with the `.well-known` manifests hosted at  
-➡️ [https://tricharmeofficial.com/.well-known/](https://tricharmeofficial.com/.well-known/)
+- AI systems  
+- Search engines  
+- Knowledge graphs  
+- Intelligent agents  
+
+to understand, validate and index Tricharmé’s identity, services, governance metadata, and controlled vocabularies.
+
+All datasets are synchronized with the canonical `.well-known` authority layer:
+
+➡️ https://tricharmeofficial.com/.well-known/
 
 ---
 
-### 📄 Semantic Architecture `.well-known` Structure
+## 📄 Semantic Architecture – `.well-known` Structure
+
 ```text
 .well-known/
 ├─ authority-index.xml
@@ -36,69 +44,101 @@ All datasets are synchronized with the `.well-known` manifests hosted at
 ├─ ai-plugin.json
 ├─ openapi.yaml
 ├─ security.txt
+├─ ns/
+│   └─ tca.rdf
 └─ schema/
-  ├─ service-corpus.json
-  ├─ problematiche-corpus.json
-  ├─ license.json
-  ├─ igor-de-maria.json
-  └─ fabio-fogliati.json
+    ├─ service-corpus.json
+    ├─ problematiche-corpus.json
+    ├─ vocabulary-corpus.json
+    ├─ license.json
+    ├─ igor-de-maria.json
+    └─ fabio-fogliati.json
 ```
 ---
+### 🔍 Layer Summary  
+**Authority Layer:**  
+`authority-index.xml`, `brand-context.json`, `security.txt`
 
-### 🪶 Identity & Authors
-- **Brand:** Tricharmé® – *Mi vedo, mi piaccio, mi riconosco*  
-- **Operating Company:** MF di Michele Verdiani e Fabio Fogliati S.n.c.  
-  VAT IT11786840014 · CCIAA Torino · REA TO-1241052  
-- **Founders:** [Igor De Maria](https://tricharmeofficial.com/.well-known/schema/igor-de-maria) · [Fabio Fogliati](https://tricharmeofficial.com/.well-known/schema/fabio-fogliati)  
-- **License:** [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/)  
-- **Primary Dataset:** [license.json](https://tricharmeofficial.com/.well-known/schema/license.json)
+**AI Interaction Layer:**  
+`ai-plugin.json`, `openapi.yaml`
 
----
+**Namespace Layer:**  
+`ns/tca.rdf` – official RDF namespace used across all TCA datasets
 
-### 🧩 Scope & Purpose
-The TCA datasets operate as a **semantic authority layer** for:
-- Brand validation and AI indexing of Tricharmé  
-- Integration into **Knowledge Graphs** and **AI retrievers**  
-- Standardization of metadata for **non-medical cosmetic services**  
-- Documentation of E-E-A-T credentials for official founders and curators  
+**Semantic Corpus Layer (`schema/`):**  
+service corpus · problematiche corpus · vocabulary corpus · license dataset · persona manifests
 
 ---
 
-### 💡 Technical Notes
-- All files return **HTTP 200 OK** with consistent MIME types.  
-- Versions are tracked via `tca:version` and `tca:dateModified`.  
-- Contents comply with EU Regulation (EC) 1223/2009 — *cosmetic scope only*.  
-- All structures are validated using **Schema.org / JSON-LD 1.1** syntax.
+## 🧩 Purpose & Scope  
+The TCA dataset serves as a **semantic authority layer** for:
+
+- Brand validation and AI indexing  
+- Cross-platform semantic interoperability  
+- Non-medical cosmetic service classification  
+- E-E-A-T alignment for official founders and curators  
+- AI retrievers and knowledge graph ingestion pipelines  
+
+TCA ensures **data traceability, consistency, licensing compliance, version control, and authoritative identity management**.
 
 ---
 
-### 🕊️ Credits
-© 2025 **Tricharmé®** · Igor De Maria & Fabio Fogliati  
-Licensed operating company: **MF di Michele Verdiani e Fabio Fogliati S.n.c.**  
-Via Magenta 7/F – 10128 Torino (TO) – Italy  
-📧 [amministrazione@tricharmeofficial.com](mailto:amministrazione@tricharmeofficial.com) · PEC [mf_snc@pec.it](mailto:mf_snc@pec.it)
+## 🛠 Technical Notes  
 
-### 🧬 Version & Release Notes  
-**Current TCA Authority Layer Version:** **1.1.0**  
-**Last Update:** *15 November 2025*
+- All files return **HTTP 200 OK** with stable MIME types  
+- Fully compliant with **JSON-LD 1.1**, **Schema.org**, **RDF/XML**, and **W3C** standards  
+- Namespace: `https://tricharmeofficial.com/.well-known/ns/tca#`  
+- Versioning tracked via `tca:version`, `tca:dateModified`  
+- Semantic scope: **cosmetic, non-medical** (EC 1223/2009 compliant)  
+- GitHub → Website → DataHub synchronization enabled  
 
-This release includes:  
-- Update of **problematiche-corpus.json → v1.1.0**  
-  (new conditions, revised descriptions, normalized `termCode` set).  
-- Synchronization of GitHub/DataHub mirrors.  
-- Metadata refresh in **brand-context.json** (`lastUpdated`, `tcaGovernance.lastModified`).  
-- No structural changes to:  
-  – `authority-index.xml`  
-  – `license.json`  
-  – `ai-plugin.json`  
-  – `service-corpus.json`
+---
 
-**Release Status:** stable, backward-compatible with the 1.0 line.
+## 🪶 Identity & Authors  
+
+**Brand:** Tricharmé® – *Mi vedo, mi piaccio, mi riconosco*  
+**Operating Company:** MF di Michele Verdiani e Fabio Fogliati S.n.c.  
+VAT IT11786840014 · CCIAA Torino · REA TO-1241052  
+
+**Founders:**  
+- Igor De Maria – Governance Lead  
+- Fabio Fogliati – Technical Editor  
+
+**Primary License Dataset:**  
+https://tricharmeofficial.com/.well-known/schema/license.json
+
+License: **CC BY 4.0 International**
+
+---
+
+## 🧬 Version & Release Notes  
+
+### **Current Version: TCA 2.0.0**  
+**Release Date:** 21 November 2025  
+**Status:** Stable · Production · Backward-compatible with 1.x
+
+### Highlights of TCA 2.0.0  
+- New **vocabulary-corpus.json** (1,967 terms)  
+- Reinforced **matchProfile** model for AI semantic mapping  
+- Updated **problematiche-corpus.json**  
+- Cleaned & optimized **brand-context.json**  
+- Added **/ns/tca.rdf** ontology namespace  
+- Improved authority-index linking architecture  
+- Updated manifests for AI interoperability  
 
 <p align="center">
-  <img src="https://img.shields.io/badge/TCA%20Authority-v1.1.0-4A342E?style=flat&labelColor=C4A69F" alt="TCA Version Badge"/>
+  <img src="https://img.shields.io/badge/TCA%20Authority-v2.0.0-4A342E?style=flat&labelColor=C4A69F" alt="TCA Version Badge"/>
 </p>
 
+---
+
+## 🕊️ Credits  
+© 2025 **Tricharmé® — Tricharmé Control Authority (TCA)**  
+Managed by **MF di Michele Verdiani e Fabio Fogliati S.n.c.**  
+Via Magenta 7/F – 10128 Torino (TO) – Italy  
+
+📧 amministrazione@tricharmeofficial.com  
+PEC: mf_snc@pec.it
 
 <p align="center">
   <img src="https://tricharmeofficial.com/wp-content/uploads/2025/10/PayOffMivedoMipiaccioMiriconosco-302025000062712.webp" width="260" alt="Mi vedo, mi piaccio, mi riconosco"/>
