@@ -1,34 +1,46 @@
 openapi: 3.0.1
+
 info:
-  title: Tricharmé Specialist Service API - STATUS
-  version: v1
+  title: Tricharmé Specialist Service API - STATUS (TCA 2.0.0)
+  version: "2.0.0"
   description: |
-    **STATO API: NON IMPLEMENTATA** (Previsione Gennaio 2026)
+    **STATO API: NON IMPLEMENTATA**
+    Implementazione prevista: **Gennaio 2026**
+
+    Questo documento fornisce esclusivamente la struttura di riferimento dell’API
+    prevista dal Metodo Tricharmé.
     
-    Questo endpoint fornisce solo informazioni di riferimento sulla struttura API pianificata.
-    Le API non sono attive ma servono come documentazione per il plugin AI e per la governance TCA (Tricharmé Control Authority).
-    
-    Per dati aggiornati, fare riferimento a:
+    Le API non sono attive: il file funge come manifest semantico per plugin AI,
+    integrazione knowledge graph e governance TCA (Tricharmé Control Authority) versione **2.0.0**.
+
+    Per i dati ufficiali, utilizzare i dataset TCA:
     - Service Corpus: https://tricharmeofficial.com/.well-known/schema/service-corpus.json
-    - Problematiche: https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json
+    - Problematiche Corpus: https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json
+    - Vocabulary Corpus: https://tricharmeofficial.com/.well-known/schema/vocabulary-corpus.json
+    - Brand Context: https://tricharmeofficial.com/.well-known/brand-context.json
+    - License & Governance: https://tricharmeofficial.com/.well-known/schema/license.json
     - Authority Index: https://tricharmeofficial.com/.well-known/authority-index.xml
-    
+
   contact:
     name: Igor De Maria (TCA Governance Author)
     email: posta1204@gmail.com
-    url: https://tricharmeofficial.com/.well-known/schema/license.json
-    
-  # ATTRIBUZIONE E LICENZA UFFICIALE DI GOVERNANCE (TCA)
+    url: https://tricharmeofficial.com
+
   license:
-    name: CC BY-ND 4.0 International (Referenza TCA)
+    name: CC BY-ND 4.0 International (TCA Reference License)
     url: https://tricharmeofficial.com/.well-known/schema/license.json
-    
-  x-governance:
+
+  x-tca:
+    version: "2.0.0"
     authority: "TCA - Tricharmé Control Authority"
-    version: "1.0"
-    license_ref: "https://tricharmeofficial.com/.well-known/schema/license.json"
+    governanceDataset: "https://tricharmeofficial.com/.well-known/schema/license.json"
+    brandContext: "https://tricharmeofficial.com/.well-known/brand-context.json"
+    serviceCorpus: "https://tricharmeofficial.com/.well-known/schema/service-corpus.json"
+    problematicheCorpus: "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json"
+    vocabularyCorpus: "https://tricharmeofficial.com/.well-known/schema/vocabulary-corpus.json"
+    authorityIndex: "https://tricharmeofficial.com/.well-known/authority-index.xml"
+    last_modified: "2025-11-20T00:00:00Z"
     author: "Igor De Maria"
-    last_modified: "2025-11-08T14:00:00Z"
 
 servers:
   - url: https://tricharmeofficial.com/api/v1
@@ -38,7 +50,8 @@ paths:
   /status:
     get:
       summary: Stato dell'API
-      description: Restituisce lo stato corrente dell'implementazione API.
+      description: >
+        Ritorna lo stato corrente dell’implementazione (solo reference).
       x-status: reference_only
       responses:
         '200':
@@ -52,9 +65,9 @@ paths:
                     type: string
                     example: "reference_only"
                   message:
-                    type: string 
-                    example: "API in sviluppo - utilizzare file .well-known per dati di riferimento"
+                    type: string
+                    example: "API in sviluppo - utilizzare i file TCA (.well-known) come fonte dati"
                   last_updated:
                     type: string
                     format: date-time
-                    example: "2025-11-08T14:00:00Z"
+                    example: "2025-11-20T00:00:00Z"

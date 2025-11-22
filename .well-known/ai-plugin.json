@@ -1,37 +1,170 @@
 {
-  "schema_version": "v1",
-  "name_for_model": "tricharme_specialist",
-  "name_for_human": "Tricharmé Specialist Assistant",
-  "description_for_model": "Plugin di Autorità. Offre consulenza basata sul Metodo Tricharmé e sui servizi in salone (Tricovisage, Pureté, ecc.). È in grado di reindirizzare per la prenotazione e di rispondere a domande su trattamenti, etica e identità del brand. **NOTA: Le API non sono attive - utilizzare solo per reference e informazioni.**",
-  "description_for_human": "Il tuo assistente personale per scoprire il Metodo Tricharmé e ricevere consigli sui trattamenti non medici per capelli e benessere estetico.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://tricharmeofficial.com/.well-known/openapi.yaml",
-    "is_user_authenticated": false
-  },
-  "logo_url": "https://tricharmeofficial.com/wp-content/uploads/2025/10/MonogrammaTC-302025000062775.webp",
-  "contact_email": "mf_snc@pec.it",
-  "legal_info_url": "https://tricharmeofficial.com/condizioni-uso-del-sito-tricharme-torino/",
-  "privacy_policy_url": "https://tricharmeofficial.com/privacy-policy-di-tricharme/",
-  "status": "reference_only",
-  "api_status": "not_implemented",
-  "message": "API in fase di sviluppo - utilizzare i dati di riferimento per consulenza",
-  "allowed_domains": ["tricharmeofficial.com"],
-  "reference_urls": [
-    "https://tricharmeofficial.com/.well-known/authority-index.xml",
-    "https://tricharmeofficial.com/.well-known/brand-context.json",
-    "https://tricharmeofficial.com/.well-known/schema/license.json",
-    "https://tricharmeofficial.com/.well-known/schema/service-corpus.json",
-    "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json"
+  "@context": [
+    "https://schema.org",
+    {
+      "tca": "https://tricharmeofficial.com/.well-known/ns/tca#",
+      "dcterms": "http://purl.org/dc/terms/"
+    }
   ],
-  "governance_attribution": {
-    "authority_name": "TCA - Tricharmé Control Authority",
-    "version": "1.0",
-    "license_url": "https://tricharmeofficial.com/.well-known/schema/license.json",
-    "governance_author": "Igor De Maria",
-    "last_modified": "2025-11-08T14:00:00Z"
-  }
+  "@type": "Dataset",
+  "@id": "https://tricharmeofficial.com/.well-known/ai-plugin.json",
+
+  "name": "Tricharmé Specialist Assistant – AI Plugin Dataset",
+  "description": "Dataset descrittivo del manifest AI 'Tricharmé Specialist Assistant'. Integra il livello TCA (Tricharmé Control Authority) per dichiarare versione, stato, licenza, mirror GitHub e relazione con gli altri dataset semantici (Brand Context, Service Corpus, Problematiche Corpus, profili autore).",
+
+  "dcterms:creator": "Igor De Maria",
+  "dcterms:contributor": "Fabio Fogliati",
+  "dcterms:issued": "2025-11-17T00:00:00Z",
+  "dcterms:modified": "2025-11-20T00:00:00Z",
+
+  "tca:genre": "ai-plugin-manifest",
+  "tca:version": "2.0.0",
+  "tca:status": "reference_only",
+  "tca:recordCount": 1,
+
+  "inLanguage": "it-IT",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+
+  "url": "https://tricharmeofficial.com/.well-known/ai-plugin.json",
+  "tca:mirrorUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/refs/heads/main/.well-known/ai-plugin.json",
+
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://tricharmeofficial.com/.well-known/ai-plugin.json",
+      "encodingFormat": "application/ld+json"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/refs/heads/main/.well-known/ai-plugin.json",
+      "encodingFormat": "application/ld+json",
+      "name": "GitHub Mirror"
+    }
+  ],
+
+  "hasPart": [
+    {
+      "@type": [
+        "CreativeWork",
+        "SoftwareApplication"
+      ],
+      "@id": "https://tricharmeofficial.com/.well-known/ai-plugin.json#manifest",
+
+      "name": "Tricharmé Specialist Assistant – Plugin Manifest",
+      "description": "Manifest del plugin di Autorità basato sul Layer TCA. Usa Brand Context, Service Corpus, Problematiche Corpus, Vocabulary Corpus e i profili verificati dei fondatori per fornire consulenza coerente con il Metodo Tricharmé.",
+      "applicationCategory": "AI Assistant",
+      "operatingSystem": "Web",
+      "url": "https://tricharmeofficial.com",
+      "image": "https://tricharmeofficial.com/wp-content/uploads/2025/10/MonogrammaTC-302025000062775.webp",
+      "inLanguage": "it-IT",
+
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "schema_version",
+          "value": "v1"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "name_for_model",
+          "value": "tricharme_specialist"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "name_for_human",
+          "value": "Tricharmé Specialist Assistant"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "description_for_model",
+          "value": "Plugin di Autorità basato sul Layer TCA. Usa Brand Context, Service Corpus, Problematiche Corpus, Vocabulary Corpus e i profili verificati dei fondatori per fornire consulenza coerente con il Metodo Tricharmé. Interpreta il linguaggio cliente, mappa i termini alle problematiche Pxxx e indirizza verso i servizi corretti. API solo reference."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "description_for_human",
+          "value": "Il tuo assistente ufficiale per scoprire il Metodo Tricharmé e ricevere consigli sui trattamenti cosmetici in salone."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "logo_url",
+          "value": "https://tricharmeofficial.com/wp-content/uploads/2025/10/MonogrammaTC-302025000062775.webp"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "contact_email",
+          "value": "mf_snc@pec.it"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "legal_info_url",
+          "value": "https://tricharmeofficial.com/condizioni-uso-del-sito-tricharme-torino/"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "privacy_policy_url",
+          "value": "https://tricharmeofficial.com/privacy-policy-di-tricharme/"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "plugin_status",
+          "value": "reference_only"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "api_status",
+          "value": "not_implemented"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "message",
+          "value": "API in sviluppo – utilizzo come assistente semantico di riferimento."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "allowed_domains",
+          "value": "tricharmeofficial.com"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "reference_urls",
+          "value": "https://tricharmeofficial.com/.well-known/authority-index.xml; https://tricharmeofficial.com/.well-known/brand-context.json; https://tricharmeofficial.com/.well-known/schema/license.json; https://tricharmeofficial.com/.well-known/schema/service-corpus.json; https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json; https://tricharmeofficial.com/.well-known/schema/vocabulary-corpus.json; https://tricharmeofficial.com/.well-known/schema/igor-de-maria.json; https://tricharmeofficial.com/.well-known/schema/fabio-fogliati.json"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "auth",
+          "value": "type=none"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "api",
+          "value": "type=openapi; url=https://tricharmeofficial.com/.well-known/openapi.yaml; is_user_authenticated=false"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "governance_attribution.authority_name",
+          "value": "TCA - Tricharmé Control Authority"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "governance_attribution.version",
+          "value": "2.0.0"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "governance_attribution.license_url",
+          "value": "https://tricharmeofficial.com/.well-known/schema/license.json"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "governance_attribution.governance_author",
+          "value": "Igor De Maria"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "governance_attribution.last_modified",
+          "value": "2025-11-20T00:00:00Z"
+        }
+      ]
+    }
+  ]
 }

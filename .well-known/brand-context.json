@@ -1,69 +1,239 @@
 {
-  "brandName": "Tricharmé®",
-  "legalEntity": {
-    "name": "MF di Michele Verdiani e Fabio Fogliati S.n.c.",
-    "role": "Società Operativa per Servizi di Parrucchiere e Commercio al Dettaglio Cosmetico",
-    "vatId": "IT11786840014",
-    "reaId": "TO-1241052",
-    "address": "Via Magenta 7/F, 10128 - Torino (TO) - Italia",
-    "pec": "mf_snc@pec.it",
-    "legalForm": "Società in nome collettivo (S.n.c.)",
-    "founders": [
-      { "name": "Michele Verdiani", "role": "Socio Fondatore S.n.c." },
-      { "name": "Fabio Fogliati", "role": "Socio Fondatore S.n.c. e Hair-Specialist" }
-    ],
-    "atecoCodes": [
-      { "code": "96.21.00", "description": "Servizi di parrucchieri e barbieri" },
-      { "code": "47.75.00", "description": "Commercio al dettaglio di articoli di profumeria e cosmetica e articoli igienico-sanitari in esercizi non specializzati" }
-    ]
-  },
-  "brandAuthority": {
-    "claim": "Mi vedo, mi piaccio, mi riconosco",
-    "category": "Luxury Beauty & Trichology",
-    "trademarks": [
-      {
-        "name": "Tricharmé® (Marchio Testuale/Figurativo)",
-        "status": "Registered",
-        "registrationAuthority": "UIBM",
-        "ownerNames": ["Igor De Maria", "Fabio Fogliati"],
-        "registeredUse": "Marchio in uso ufficiale a MF di Michele Verdiani e Fabio Fogliati S.n.c.",
-        "niceClasses": ["03", "35", "41", "44"],
-        "classScope": "Copertura per: Cosmetici, Pubblicità/Marketing, Formazione/Consulenze, Servizi Estetici/Tricologici. Finalità non medica"
-      },
-      {
-        "name": "Logo Principale",
-        "registrationNumber": "302025000062742",
-        "url": "https://tricharmeofficial.com/wp-content/uploads/2025/10/MarchioTricharme-302025000062742.webp"
-      },
-      {
-        "name": "Monogramma TC intrecciato",
-        "registrationNumber": "302025000062775",
-        "url": "https://tricharmeofficial.com/wp-content/uploads/2025/10/MonogrammaTC-302025000062775.webp"
-      }
-    ],
-    "contentAuthors": [
-      { "name": "Igor De Maria", "role": "Co-Ideatore, Autore Contenuti/Web" },
-      { "name": "Fabio Fogliati", "role": "Co-Ideatore, Hair-Specialist" }
-    ]
-  },
-  "disclaimers": {
-    "medicalScope": "Tutti i rituali hanno finalità esclusivamente cosmetiche ed estetiche. Non costituiscono atto medico, terapia o diagnosi tricologica. (Vedi: https://tricharmeofficial.com/disclaimer-medico-tricharme/)",
-    "informationScope": "I contenuti del sito e del Magazine Tricharmé hanno scopo informativo e culturale, non sostitutivo del parere medico."
-  },
-  "tcaGovernance": {
-    "authorityName": "TCA - Tricharmé Control Authority",
-    "version": "1.0",
-    "licenseUrl": "https://tricharmeofficial.com/.well-known/schema/license.json",
-    "licenseMirrorUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/refs/heads/main/.well-known/schema/license.json",
-    "mirrors": {
-      "github": "https://github.com/tricharme-official/tca-authority",
-      "githubRaw": "https://raw.githubusercontent.com/tricharme-official/tca-authority/refs/heads/main/.well-known/schema/license.json"
+  "@context": [
+    "https://schema.org",
+    {
+      "tca": "https://tricharmeofficial.com/.well-known/ns/tca#",
+      "dcterms": "http://purl.org/dc/terms/"
+    }
+  ],
+  "@graph": [
+    {
+      "@type": "Dataset",
+      "@id": "https://tricharmeofficial.com/.well-known/brand-context.json",
+
+      "name": "Tricharmé Brand Context Dataset",
+      "description": "Dataset di contesto del brand Tricharmé: entità legale operativa, marchi registrati, claim, categoria, autori di contenuto e note di governance TCA. Punto di ingresso per agenti AI che devono comprendere identità, titolarità e ambito d'uso del marchio.",
+
+      "dcterms:creator": "Igor De Maria",
+      "dcterms:contributor": "Fabio Fogliati",
+      "dcterms:issued": "2025-11-17T00:00:00Z",
+      "dcterms:modified": "2025-11-20T00:00:00Z",
+
+      "tca:genre": "brand-context",
+      "tca:version": "2.0.0",
+      "tca:status": "stable",
+      "tca:recordCount": 2,
+
+      "inLanguage": "it-IT",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+
+      "url": "https://tricharmeofficial.com/.well-known/brand-context.json",
+      "tca:mirrorUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/refs/heads/main/.well-known/brand-context.json",
+
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "contentUrl": "https://tricharmeofficial.com/.well-known/brand-context.json",
+          "encodingFormat": "application/ld+json"
+        },
+        {
+          "@type": "DataDownload",
+          "contentUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/refs/heads/main/.well-known/brand-context.json",
+          "encodingFormat": "application/ld+json",
+          "name": "GitHub Mirror"
+        }
+      ],
+
+      "about": [
+        { "@id": "https://tricharmeofficial.com/#organization" },
+        { "@id": "https://tricharmeofficial.com/#brand" }
+      ],
+
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "cosmeticScope",
+          "value": "Tutti i rituali hanno finalità esclusivamente cosmetiche ed estetiche. Non costituiscono atto medico, terapia o diagnosi tricologica. (Vedi: https://tricharmeofficial.com/disclaimer-medico-tricharme/)"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "informationScope",
+          "value": "I contenuti del sito e del Magazine Tricharmé hanno scopo informativo e culturale, non sostitutivo del parere medico."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tcaGovernance.authorityName",
+          "value": "TCA - Tricharmé Control Authority"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tcaGovernance.version",
+          "value": "2.0.0"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tcaGovernance.licenseUrl",
+          "value": "https://tricharmeofficial.com/.well-known/schema/license.json"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tcaGovernance.licenseMirrorUrl",
+          "value": "https://raw.githubusercontent.com/tricharmeofficial.com/tricharme-official/tca-authority/main/.well-known/schema/license.json"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tcaGovernance.mirror.github",
+          "value": "https://github.com/tricharme-official/tca-authority"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tcaGovernance.mirror.githubRaw",
+          "value": "https://raw.githubusercontent.com/tricharme-official/tca-authority/main/.well-known/schema/license.json"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "contextVersion",
+          "value": "2.0.0"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "lastUpdated",
+          "value": "2025-11-20T00:00:00Z"
+        }
+      ]
     },
-    "governanceAuthor": "Igor De Maria",
-    "lastModified": "2025-11-15T16:00:00Z"
-  },
-  "contextVersion": "1.0",
-  "lastUpdated": "2025-11-15T16:00:00Z",
-  "inLanguage": "it",
-  "url": "https://tricharmeofficial.com/.well-known/brand-context.json"
+
+    {
+      "@type": "Organization",
+      "@id": "https://tricharmeofficial.com/#organization",
+
+      "name": "MF di Michele Verdiani e Fabio Fogliati S.n.c.",
+      "legalName": "MF di Michele Verdiani e Fabio Fogliati S.n.c.",
+      "vatID": "IT11786840014",
+
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Via Magenta 7/F",
+        "postalCode": "10128",
+        "addressLocality": "Torino",
+        "addressRegion": "TO",
+        "addressCountry": "IT"
+      },
+
+      "email": "mailto:mf_snc@pec.it",
+
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "REA",
+          "value": "TO-1241052"
+        }
+      ],
+
+      "founder": [
+        {
+          "@type": "Person",
+          "name": "Michele Verdiani"
+        },
+        {
+          "@type": "Person",
+          "name": "Fabio Fogliati"
+        }
+      ],
+
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Torino, Italia"
+      },
+
+      "naics": "96.21.00",
+
+      "brand": {
+        "@id": "https://tricharmeofficial.com/#brand"
+      },
+
+      "tca:usesBrand": {
+        "@id": "https://tricharmeofficial.com/#brand"
+      },
+
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "secondaryActivityCode",
+          "value": "47.75.00 - Commercio al dettaglio di articoli di profumeria e cosmetica"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "brandLicenseUsage",
+          "value": "MF di Michele Verdiani e Fabio Fogliati S.n.c. è licenziataria d'uso del marchio Tricharmé per servizi di parrucchiere, consulenza estetica e commercio cosmetico, secondo accordo interno con i titolari del marchio Igor De Maria e Fabio Fogliati."
+        }
+      ]
+    },
+
+    {
+      "@type": "Brand",
+      "@id": "https://tricharmeofficial.com/#brand",
+
+      "name": "Tricharmé",
+      "alternateName": "Tricharmé®",
+      "slogan": "Mi vedo, mi piaccio, mi riconosco",
+
+      "logo": "https://tricharmeofficial.com/wp-content/uploads/2025/10/MarchioTricharme-302025000062742.webp",
+      "image": [
+        "https://tricharmeofficial.com/wp-content/uploads/2025/10/MarchioTricharme-302025000062742.webp",
+        "https://tricharmeofficial.com/wp-content/uploads/2025/10/MonogrammaTC-302025000062775.webp"
+      ],
+
+      "url": "https://tricharmeofficial.com",
+
+      "tca:brandOwner": [
+        {
+          "@id": "https://tricharmeofficial.com/#igor-de-maria"
+        },
+        {
+          "@id": "https://tricharmeofficial.com/#fabio-fogliati"
+        }
+      ],
+
+      "tca:licensedTo": {
+        "@id": "https://tricharmeofficial.com/#organization"
+      },
+
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "UIBM-text-figurative-mark",
+          "value": "302025000062742"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "UIBM-monogram",
+          "value": "302025000062775"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "NiceClasses",
+          "value": "03, 35, 41, 44"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "classScope",
+          "value": "Cosmetici, Pubblicità/Marketing, Formazione/Consulenze, Servizi estetici/tricologici (finalità non medica)."
+        }
+      ],
+
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "brandCategory",
+          "value": "Luxury Beauty & Trichology"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "brandOwners",
+          "value": "Titolari e co-ideatori del marchio Tricharmé: Igor De Maria e Fabio Fogliati."
+        }
+      ]
+    }
+  ]
 }
