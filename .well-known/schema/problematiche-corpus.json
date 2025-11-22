@@ -1,31 +1,76 @@
 {
-  "@context": "https://schema.org",
-  "@type": ["DefinedTermSet", "Dataset"],
-  "@id": "https://tricharmeofficial.com/#problematiche",
+  "@context": [
+    "https://schema.org",
+    {
+      "tca": "https://tricharmeofficial.com/.well-known/ns/tca#",
+      "dcterms": "http://purl.org/dc/terms/"
+    }
+  ],
+
+  "@type": ["Dataset", "DefinedTermSet"],
+
+  "@id": "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json",
   "url": "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json",
+
   "name": "Problematiche Tricharmé (ambito cosmetico, non medico)",
   "description": "Vocabolario controllato delle principali condizioni cosmetiche trattate da Tricharmé nei propri percorsi. Non costituisce atto medico.",
+
   "inLanguage": "it-IT",
   "spatialCoverage": "Torino, Italia",
-  "creator": [
-    { "@type": "Person", "name": "Igor De Maria" },
-    { "@type": "Person", "name": "Fabio Fogliati" }
-  ],
-  "publisher": { "@type": "Person", "name": "Igor De Maria" },
+
+  "dcterms:creator": "Igor De Maria",
+  "dcterms:contributor": "Fabio Fogliati",
+  "dcterms:issued": "2025-11-20T00:00:00Z",
+  "dcterms:modified": "2025-11-20T00:00:00Z",
+
+  "tca:genre": "problematiche-corpus",
+  "tca:version": "2.0.0",
+  "tca:status": "stable",
+  "tca:recordCount": 20,
+  "tca:mirrorUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/refs/heads/main/.well-known/schema/problematiche-corpus.json",
+
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "version": "1.1.0",
-  "datePublished": "2025-11-08",
-  "dateModified": "2025-11-15",
+  "isAccessibleForFree": true,
+
   "isPartOf": [
     "https://tricharmeofficial.com/.well-known/authority-index.xml",
     "https://tricharmeofficial.com/.well-known/schema/license.json"
   ],
+
   "usageInfo": "Tutti i contenuti hanno finalità esclusivamente estetiche e cosmetiche. In presenza di segnali (red flag) che esulano dall'ambito cosmetico, rivolgersi a un medico tricologo o dermatologo.",
+
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json",
+      "encodingFormat": "application/ld+json"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/refs/heads/main/.well-known/schema/problematiche-corpus.json",
+      "encodingFormat": "application/ld+json",
+      "name": "GitHub Mirror"
+    }
+  ],
+
+  "about": [
+    { "@id": "https://tricharmeofficial.com/#brand" },
+    { "@id": "https://tricharmeofficial.com/#organization" }
+  ],
+
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "cosmeticScope",
+      "value": "Tutti i contenuti hanno finalità cosmetiche, estetiche e di benessere e non costituiscono atto medico, diagnosi o terapia."
+    }
+  ],
+
   "hasDefinedTerm": [
     {
       "@type": "DefinedTerm",
       "@id": "https://tricharmeofficial.com/#forfora-secca",
-      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "inDefinedTermSet": "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json",
       "termCode": "P001",
       "name": "Forfora secca",
       "description": "Piccole scaglie bianche e secche che cadono facilmente da cute e capelli, spesso associate a prurito e sensazione di pelle che tira.",
@@ -40,7 +85,7 @@
     {
       "@type": "DefinedTerm",
       "@id": "https://tricharmeofficial.com/#forfora-grassa",
-      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "inDefinedTermSet": "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json",
       "termCode": "P002",
       "name": "Forfora grassa",
       "description": "Scaglie giallastre, spesse e untuose, più aderenti alla cute; i capelli risultano appesantiti e poco puliti.",
@@ -55,7 +100,7 @@
     {
       "@type": "DefinedTerm",
       "@id": "https://tricharmeofficial.com/#allodinia-cuoio-capelluto-pitiriasi",
-      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "inDefinedTermSet": "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json",
       "termCode": "P003",
       "name": "Allodinia cuoio capelluto pitiriasi",
       "description": "Cute ipersensibile e dolente al tatto o al semplice movimento dei capelli, con desquamazione visibile e fastidio quotidiano.",
@@ -70,7 +115,7 @@
     {
       "@type": "DefinedTerm",
       "@id": "https://tricharmeofficial.com/#iperidrosi-cuoio-capelluto",
-      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "inDefinedTermSet": "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json",
       "termCode": "P004",
       "name": "Iperidrosi Cuoio Capelluto",
       "description": "Sudorazione eccessiva del cuoio capelluto con sensazione di bagnato costante, capelli appiccicosi e perdita di volume.",
@@ -85,7 +130,7 @@
     {
       "@type": "DefinedTerm",
       "@id": "https://tricharmeofficial.com/#tricodinia",
-      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "inDefinedTermSet": "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json",
       "termCode": "P005",
       "name": "Tricodinia",
       "description": "Dolore, bruciore o fastidio localizzato al cuoio capelluto che si accentua con il contatto o la trazione dei capelli.",
@@ -100,7 +145,7 @@
     {
       "@type": "DefinedTerm",
       "@id": "https://tricharmeofficial.com/#follicolite",
-      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "inDefinedTermSet": "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json",
       "termCode": "P006",
       "name": "Follicolite",
       "description": "Piccoli brufoli o pustole a livello dei follicoli, talvolta arrossati e pruriginosi, con sensazione di cute irritata.",
@@ -115,7 +160,7 @@
     {
       "@type": "DefinedTerm",
       "@id": "https://tricharmeofficial.com/#asteatosi",
-      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "inDefinedTermSet": "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json",
       "termCode": "P007",
       "name": "Asteatosi",
       "description": "Cute povera di sebo, secca e spesso desquamata; capelli spenti, fragili e poco protetti dagli agenti esterni.",
@@ -130,7 +175,7 @@
     {
       "@type": "DefinedTerm",
       "@id": "https://tricharmeofficial.com/#ipersecrezione-sebacea",
-      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "inDefinedTermSet": "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json",
       "termCode": "P008",
       "name": "Ipersecrezione sebacea",
       "description": "Produzione eccessiva di sebo che rende i capelli unti, pesanti e difficili da mantenere puliti a lungo.",
@@ -145,7 +190,7 @@
     {
       "@type": "DefinedTerm",
       "@id": "https://tricharmeofficial.com/#prurito-del-cuoio-capelluto",
-      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "inDefinedTermSet": "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json",
       "termCode": "P009",
       "name": "Prurito del Cuoio Capelluto",
       "description": "Sensazione di prurito più o meno intensa sulla cute, con possibili aree arrossate e presenza di scaglie o sebo.",
@@ -160,7 +205,7 @@
     {
       "@type": "DefinedTerm",
       "@id": "https://tricharmeofficial.com/#micosi-del-cuoio-capelluto",
-      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "inDefinedTermSet": "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json",
       "termCode": "P010",
       "name": "Micosi del Cuoio Capelluto",
       "description": "Infezioni di origine fungina con prurito, desquamazione irregolare e possibile diradamento temporaneo dei capelli.",
@@ -175,7 +220,7 @@
     {
       "@type": "DefinedTerm",
       "@id": "https://tricharmeofficial.com/#arrossamento-cute-cuoio-capelluto",
-      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "inDefinedTermSet": "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json",
       "termCode": "P011",
       "name": "Arrossamento cuoio capelluto e cute",
       "description": "Cute visibilmente arrossata, calda o che brucia al tatto, segno di irritazione o infiammazione non necessariamente patologica.",
@@ -190,7 +235,7 @@
     {
       "@type": "DefinedTerm",
       "@id": "https://tricharmeofficial.com/#dermatite-atopica",
-      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "inDefinedTermSet": "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json",
       "termCode": "P012",
       "name": "Dermatite Atopica",
       "description": "Condizione infiammatoria cronica con prurito intenso, secchezza, arrossamento e possibili fissurazioni della cute.",
@@ -205,7 +250,7 @@
     {
       "@type": "DefinedTerm",
       "@id": "https://tricharmeofficial.com/#capelli-fragili",
-      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "inDefinedTermSet": "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json",
       "termCode": "P013",
       "name": "Capelli Fragili",
       "description": "Capelli che si spezzano facilmente, con poca elasticità, spesso opachi e con punte sfruttate.",
@@ -220,7 +265,7 @@
     {
       "@type": "DefinedTerm",
       "@id": "https://tricharmeofficial.com/#capelli-secchi",
-      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "inDefinedTermSet": "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json",
       "termCode": "P014",
       "name": "Capelli Secchi",
       "description": "Capelli ruvidi, poco luminosi e difficili da districare, per carenza di idratazione e di sebo protettivo.",
@@ -235,7 +280,7 @@
     {
       "@type": "DefinedTerm",
       "@id": "https://tricharmeofficial.com/#capelli-sottili",
-      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "inDefinedTermSet": "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json",
       "termCode": "P015",
       "name": "Capelli Sottili",
       "description": "Fibra a diametro ridotto con poco corpo e volume, facilmente appiattita e più vulnerabile alle sollecitazioni meccaniche.",
@@ -250,7 +295,7 @@
     {
       "@type": "DefinedTerm",
       "@id": "https://tricharmeofficial.com/#capelli-grossi",
-      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "inDefinedTermSet": "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json",
       "termCode": "P016",
       "name": "Capelli Grossi",
       "description": "Capelli spessi e strutturati, spesso più rigidi, talvolta secchi e difficili da disciplinare o da mettere in piega.",
@@ -265,7 +310,7 @@
     {
       "@type": "DefinedTerm",
       "@id": "https://tricharmeofficial.com/#capelli-crespi",
-      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "inDefinedTermSet": "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json",
       "termCode": "P017",
       "name": "Capelli Crespi",
       "description": "Fusto irregolare e poroso con effetto crespo, poco controllo e scarsa lucentezza, soprattutto in presenza di umidità.",
@@ -280,7 +325,7 @@
     {
       "@type": "DefinedTerm",
       "@id": "https://tricharmeofficial.com/#doppie-punte",
-      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "inDefinedTermSet": "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json",
       "termCode": "P018",
       "name": "Doppie punte",
       "description": "Estremità del capello sdoppiate o sfibrate, tipiche di una fibra stressata da calore, chimica o sfregamento meccanico.",
@@ -295,7 +340,7 @@
     {
       "@type": "DefinedTerm",
       "@id": "https://tricharmeofficial.com/#capelli-danneggiati",
-      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "inDefinedTermSet": "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json",
       "termCode": "P019",
       "name": "Capelli Danneggiati",
       "description": "Fibra compromessa da colorazioni, decolorazioni, calore o agenti esterni; capelli opachi, ruvidi e facilmente spezzati.",
@@ -310,7 +355,7 @@
     {
       "@type": "DefinedTerm",
       "@id": "https://tricharmeofficial.com/#caduta-capelli",
-      "inDefinedTermSet": "https://tricharmeofficial.com/#problematiche",
+      "inDefinedTermSet": "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json",
       "termCode": "P020",
       "name": "Caduta Capelli",
       "description": "Aumento percepito dei capelli che si staccano, con possibile riduzione di densità e impatto estetico ed emotivo importante.",

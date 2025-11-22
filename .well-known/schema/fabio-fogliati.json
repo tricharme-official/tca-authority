@@ -1,28 +1,51 @@
 {
-  "@context": "https://schema.org",
+  "@context": [
+    "https://schema.org",
+    {
+      "tca": "https://tricharmeofficial.com/.well-known/ns/tca#"
+    }
+  ],
   "@type": "Person",
-  "@id": "https://tricharmeofficial.com/.well-known/schema/fabio-fogliati.json",
+
+  "@id": "https://tricharmeofficial.com/#fabio-fogliati",
+  "url": "https://tricharmeofficial.com/.well-known/schema/fabio-fogliati.json",
+
   "name": "Fabio Fogliati",
   "alternateName": "F. Fogliati",
   "givenName": "Fabio",
   "familyName": "Fogliati",
+
   "jobTitle": [
     "Co-Founder Tricharmé",
     "Hair Specialist",
     "Lookmaker",
     "Content Reviewer tecnico"
   ],
-  "description": "Co-ideatore del brand e responsabile della supervisione tecnico-scientifica dei contenuti hair & beauty. Specialista in consulenza d'immagine e rituali cosmetici Tricharmé.",
+
+  "description": "Co-ideatore del brand Tricharmé e responsabile della supervisione tecnico-scientifica dei contenuti hair & beauty. Specialista in consulenza d'immagine, tricologia cosmetica (non medica) e rituali cosmetici Tricharmé.",
+
+  "image": "https://tricharmeofficial.com/wp-content/uploads/2025/10/Fabio-Fogliati-Tricharme.webp",
+
+  "email": "mailto:fabiofogliati@tricharmeofficial.com",
+
   "worksFor": {
     "@type": "Organization",
     "@id": "https://tricharmeofficial.com/#organization",
-    "name": "Tricharmé"
+    "name": "MF di Michele Verdiani e Fabio Fogliati S.n.c."
   },
+
+  "affiliation": {
+    "@type": "Organization",
+    "@id": "https://tricharmeofficial.com/#organization",
+    "name": "MF di Michele Verdiani e Fabio Fogliati S.n.c."
+  },
+
   "hasOccupation": {
     "@type": "Occupation",
     "name": "Hair Specialist, Lookmaker e Consulente d'immagine",
     "occupationalCategory": "Cosmetica / Immagine personale"
   },
+
   "hasCredential": [
     {
       "@type": "EducationalOccupationalCredential",
@@ -42,16 +65,20 @@
       "description": "Certificazione in analisi cromatica e morfologica per la consulenza d'immagine."
     }
   ],
+
   "knowsAbout": [
     "Metodo Tricharmé",
     "Tricovisage®",
     "Tricologia Cosmetica (non medica)",
     "Forfora",
+    "Forfora grassa",
+    "Forfora secca",
     "Dermatite seborroica",
     "Cuoio capelluto sensibile",
     "Iperseborrea",
     "Follicolite",
     "Asteatosi",
+    "Tricodinia",
     "Prurito del cuoio capelluto",
     "Micosi del cuoio capelluto",
     "Arrossamento cutaneo",
@@ -67,31 +94,60 @@
     "Alopecia",
     "Caduta capelli",
     "Ricostruzione della fibra capillare",
-    "Percorsi Tricharmé: Pureté, Renaissance, Élixir, Vitalité, Couleur",
+    "Trattamenti di Ricostruzione capelli",
+    "Percorsi Tricharmé Pureté",
+    "Percorsi Tricharmé Renaissance",
+    "Percorsi Tricharmé Élixir",
+    "Percorsi Tricharmé Vitalité",
+    "Percorsi Tricharmé Couleur",
     "Lookmaker",
     "Armocromia",
     "Analisi silhouette"
   ],
-  "knowsLanguage": ["it"],
-  "email": "mailto:fabiofogliati@tricharmeofficial.com",
-  "url": "https://tricharmeofficial.com/.well-known/schema/fabio-fogliati.json",
-  "image": "https://tricharmeofficial.com/wp-content/uploads/2025/10/Fabio-Fogliati-Tricharme.webp",
+
+  "knowsLanguage": [
+    "it-IT"
+  ],
+
   "sameAs": [
     "https://mfbiohair.com/",
     "https://www.facebook.com/fabiofogliatitorino"
   ],
-  
+
   "subjectOf": {
-    "@type": ["Dataset", "CreativeWork"],
+    "@type": [
+      "Dataset",
+      "CreativeWork"
+    ],
     "@id": "https://tricharmeofficial.com/.well-known/schema/license.json",
     "name": "TCA – Tricharmé Control Authority: Governance & License Dataset"
   },
 
   "identifier": [
-    { "@type": "PropertyValue", "propertyID": "tca:version", "value": "1.0" },
-    { "@type": "PropertyValue", "propertyID": "tca:datePublished", "value": "2025-11-08" },
-    { "@type": "PropertyValue", "propertyID": "tca:dateModified", "value": "2025-11-15T16:00:00Z" },
-    { "@type": "PropertyValue", "propertyID": "tca:license", "value": "https://creativecommons.org/licenses/by/4.0/" },
-    { "@type": "PropertyValue", "propertyID": "tca:areaServed", "value": "IT" }
+    {
+      "@type": "PropertyValue",
+      "propertyID": "tca:version",
+      "value": "2.0.0"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "tca:datePublished",
+      "value": "2025-11-20"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "tca:dateModified",
+      "value": "2025-11-20T00:00:00Z"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "tca:license",
+      "value": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "tca:areaServed",
+      "value": "IT"
+    }
   ]
 }

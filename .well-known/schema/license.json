@@ -1,78 +1,147 @@
 {
-  "@context": "https://schema.org",
-  "@type": ["Dataset", "CreativeWork"],
-  "@id": "https://tricharmeofficial.com/.well-known/schema/license",
-  "url": "https://tricharmeofficial.com/.well-known/schema/license",
-  "identifier": "tca-license-v1.0",
+  "@context": [
+    "https://schema.org",
+    {
+      "tca": "https://tricharmeofficial.com/.well-known/ns/tca#",
+      "dcterms": "http://purl.org/dc/terms/"
+    }
+  ],
+
+  "@type": "Dataset",
+
+  "@id": "https://tricharmeofficial.com/.well-known/schema/license.json",
+  "url": "https://tricharmeofficial.com/.well-known/schema/license.json",
+
   "name": "TCA – Tricharmé Control Authority: Governance & License Dataset",
-  "description": "Dataset ufficiale di governance (licenza e policy) che regola l'uso e l'attribuzione di tutti i metadati e dataset TCA (Tricharmé Control Authority). Opera essenziale per l'ingestione e la validazione dei dati da parte di Agenti AI e motori di ricerca. Uso pubblico e commerciale con attribuzione (CC BY 4.0).",
-  "inLanguage": "it",
-  "version": "1.0",
-  "datePublished": "2025-11-08",
-  "dateModified": "2025-11-08",
+  "description": "Dataset ufficiale di governance che definisce licenze, regole di attribuzione, riferimenti e struttura del Layer TCA. È la base di verifica per motori AI, agenti e sistemi semantici che consumano i dataset Tricharmé.",
+
+  "inLanguage": "it-IT",
+
+  "dcterms:creator": "Igor De Maria",
+  "dcterms:contributor": "Fabio Fogliati",
+  "dcterms:issued": "2025-11-20T00:00:00Z",
+  "dcterms:modified": "2025-11-20T00:00:00Z",
+
+  "tca:genre": "governance-license-dataset",
+  "tca:version": "2.0.0",
+  "tca:status": "stable",
+  "tca:recordCount": 10,
+  "tca:mirrorUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/refs/heads/main/.well-known/schema/license.json",
+
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "isAccessibleForFree": true,
+
+  "identifier": "tca-license-v2.0.0",
+
   "keywords": [
     "TCA",
     "Tricharmé",
     "governance",
     "license",
-    "dataset",
+    "authority",
     "semantic-web",
-    "authority-data"
+    "dataset",
+    "AI indexing"
   ],
+
   "creator": [
     {
       "@type": "Person",
       "name": "Igor De Maria",
       "email": "mailto:posta1204@gmail.com",
-      "description": "Autore e Curatore della Governance Digitale, dell’infrastruttura semantica e dei dataset TCA."
+      "description": "Autore della Governance Digitale e dell’infrastruttura semantica del TCA."
     },
     {
       "@type": "Person",
       "name": "Fabio Fogliati",
       "email": "mailto:fabiofogliati@gmail.com",
-      "description": "Responsabile tecnico dei protocolli di trattamento e Autore dei Rituals Corpus."
+      "description": "Responsabile tecnico dei rituali e Co-Ideatore del Metodo Tricharmé."
     }
   ],
+
   "publisher": {
     "@type": "Person",
     "name": "Igor De Maria",
     "email": "mailto:posta1204@gmail.com"
   },
+
   "sdPublisher": {
     "@type": "Person",
     "name": "Igor De Maria",
     "email": "mailto:posta1204@gmail.com",
-    "url": "https://tricharmeofficial.com/.well-known/schema/license"
+    "url": "https://tricharmeofficial.com/.well-known/schema/igor-de-maria.json"
   },
+
   "sameAs": [
-    "https://github.com/tricharme-official/tca-authority",
-    "https://datahub.io/tricharme/tca-authority"
+    "https://github.com/tricharme-official/tca-authority"
   ],
+
   "distribution": [
     {
       "@type": "DataDownload",
-      "name": "Mirror GitHub (RAW)",
-      "encodingFormat": "application/json",
-      "contentUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/main/.well-known/schema/license.json"
+      "contentUrl": "https://tricharmeofficial.com/.well-known/schema/license.json",
+      "encodingFormat": "application/ld+json"
     },
     {
       "@type": "DataDownload",
-      "name": "Mirror DataHub",
-      "encodingFormat": "application/json",
-      "contentUrl": "https://datahub.io/tricharme/tca-authority"
+      "contentUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/refs/heads/main/.well-known/schema/license.json",
+      "encodingFormat": "application/ld+json",
+      "name": "GitHub Mirror"
     }
   ],
+
+  "about": [
+    { "@id": "https://tricharmeofficial.com/.well-known/authority-index.xml" },
+    { "@id": "https://tricharmeofficial.com/.well-known/brand-context.json" },
+    { "@id": "https://tricharmeofficial.com/#brand" },
+    { "@id": "https://tricharmeofficial.com/#organization" }
+  ],
+
   "hasPart": [
-    { "@id": "https://tricharmeofficial.com/.well-known/openapi.yaml" },
-    { "@id": "https://tricharmeofficial.com/.well-known/brand-context" },
-    { "@id": "https://tricharmeofficial.com/.well-known/authority-index" },
-    { "@id": "https://tricharmeofficial.com/.well-known/ai-plugin" },
-    { "@id": "https://tricharmeofficial.com/.well-known/security.txt" },
-    { "@id": "https://tricharmeofficial.com/.well-known/schema/service-corpus" },
-    { "@id": "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus" },
-    { "@id": "https://tricharmeofficial.com/.well-known/schema/fabio-fogliati" },
-    { "@id": "https://tricharmeofficial.com/.well-known/schema/igor-de-maria" }
+    {
+      "@type": "CreativeWork",
+      "@id": "https://tricharmeofficial.com/.well-known/openapi.yaml"
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://tricharmeofficial.com/.well-known/brand-context.json"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://tricharmeofficial.com/.well-known/authority-index.xml"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://tricharmeofficial.com/.well-known/ai-plugin.json"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://tricharmeofficial.com/.well-known/security.txt"
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://tricharmeofficial.com/.well-known/schema/service-corpus.json"
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json"
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://tricharmeofficial.com/.well-known/schema/vocabulary-corpus.json"
+    }
+  ],
+
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "cosmeticScope",
+      "value": "Tutti i contenuti Tricharmé hanno finalità esclusivamente cosmetiche, estetiche e di benessere e non costituiscono atto medico, terapia o diagnosi tricologica."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "governanceScope",
+      "value": "Regola attribuzione, licenza e uso di tutti i dataset TCA 2.0.0 pubblicati in /.well-known/ e mirror GitHub."
+    }
   ]
 }
