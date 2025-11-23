@@ -36,21 +36,25 @@
     <schema:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-11-20</schema:dateModified>
     <schema:isAccessibleForFree>true</schema:isAccessibleForFree>
     
+    <!-- CREATOR E AUTHOR -->
     <schema:creator rdf:resource="https://tricharmeofficial.com/.well-known/schema/igor-de-maria.json"/>
     <schema:creator rdf:resource="https://tricharmeofficial.com/.well-known/schema/fabio-fogliati.json"/>
     
     <schema:author rdf:resource="https://tricharmeofficial.com/.well-known/schema/igor-de-maria.json"/>
     <schema:author rdf:resource="https://tricharmeofficial.com/.well-known/schema/fabio-fogliati.json"/>
     
+    <!-- PUBLISHER CORRETTO (MF S.N.C.) -->
     <schema:publisher>
       <schema:Organization rdf:about="https://tricharmeofficial.com/#organization">
-        <schema:name>Tricharmé</schema:name>
+        <schema:name>MF di Michele Verdiani e Fabio Fogliati S.n.c.</schema:name>
+        <schema:legalName>MF di Michele Verdiani e Fabio Fogliati S.n.c.</schema:legalName>
         <schema:url rdf:resource="https://tricharmeofficial.com"/>
       </schema:Organization>
     </schema:publisher>
     
     <schema:license rdf:resource="https://tricharmeofficial.com/.well-known/schema/license.json"/>
     
+    <!-- DISTRIBUZIONE -->
     <schema:distribution>
       <schema:DataDownload>
         <schema:name>GitHub RAW Mirror</schema:name>
@@ -91,6 +95,7 @@
       </schema:CreativeWork>
     </schema:hasPart>
     
+    <!-- DATASET CORPUS -->
     <schema:hasPart>
       <schema:Dataset rdf:about="https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json">
         <schema:name>Problematiche Corpus</schema:name>
@@ -114,6 +119,7 @@
       </schema:Dataset>
     </schema:hasPart>
     
+    <!-- LICENSE -->
     <schema:hasPart>
       <schema:CreativeWork rdf:about="https://tricharmeofficial.com/.well-known/schema/license.json">
         <schema:name>License Terms</schema:name>
@@ -121,6 +127,7 @@
       </schema:CreativeWork>
     </schema:hasPart>
     
+    <!-- PERSONE -->
     <schema:hasPart>
       <schema:Person rdf:about="https://tricharmeofficial.com/.well-known/schema/igor-de-maria.json">
         <schema:name>Igor De Maria</schema:name>
@@ -135,53 +142,76 @@
       </schema:Person>
     </schema:hasPart>
 
-    <!-- SYSTEM STATS CORRETTI -->
+    <!-- SYSTEM STATS (allineato a ontologia TCA) -->
     <tca:systemStats>
-      <tca:totalDatasets>3</tca:totalDatasets>
-      <tca:totalRecords>1987</tca:totalRecords>
-      <tca:systemVersion>2.0.0</tca:systemVersion>
+      <tca:SystemStats>
+        <tca:totalDatasets>9</tca:totalDatasets>
+        <tca:totalRecords>1987</tca:totalRecords>
+        <tca:systemVersion>2.0.0</tca:systemVersion>
+      </tca:SystemStats>
     </tca:systemStats>
 
+    <!-- LEGAL HUB (allineato a ontologia TCA) -->
     <tca:legalHub>
-      <tca:legalDocument>
-        <tca:documentName>Privacy Policy</tca:documentName>
-        <tca:documentUrl>https://tricharmeofficial.com/privacy-policy-di-tricharme/</tca:documentUrl>
-      </tca:legalDocument>
+      <tca:LegalHub>
 
-      <tca:legalDocument>
-        <tca:documentName>Cookie Policy UE</tca:documentName>
-        <tca:documentUrl>https://tricharmeofficial.com/cookie-policy-ue/</tca:documentUrl>
-      </tca:legalDocument>
+        <tca:legalDocument>
+          <tca:LegalDocument>
+            <tca:documentName>Privacy Policy</tca:documentName>
+            <tca:documentUrl>https://tricharmeofficial.com/privacy-policy-di-tricharme/</tca:documentUrl>
+          </tca:LegalDocument>
+        </tca:legalDocument>
 
-      <tca:legalDocument>
-        <tca:documentName>Termini e Condizioni d'Uso</tca:documentName>
-        <tca:documentUrl>https://tricharmeofficial.com/condizioni-uso-del-sito-tricharme-torino/</tca:documentUrl>
-      </tca:legalDocument>
+        <tca:legalDocument>
+          <tca:LegalDocument>
+            <tca:documentName>Cookie Policy UE</tca:documentName>
+            <tca:documentUrl>https://tricharmeofficial.com/cookie-policy-ue/</tca:documentUrl>
+          </tca:LegalDocument>
+        </tca:legalDocument>
 
-      <tca:legalDocument>
-        <tca:documentName>Etica e Valori Tricharmé</tca:documentName>
-        <tca:documentUrl>https://tricharmeofficial.com/etica-valori-tricharme/</tca:documentUrl>
-      </tca:legalDocument>
+        <tca:legalDocument>
+          <tca:LegalDocument>
+            <tca:documentName>Termini e Condizioni d'Uso</tca:documentName>
+            <tca:documentUrl>https://tricharmeofficial.com/condizioni-uso-del-sito-tricharme-torino/</tca:documentUrl>
+          </tca:LegalDocument>
+        </tca:legalDocument>
 
-      <tca:legalDocument>
-        <tca:documentName>Licenze e Crediti Immagini</tca:documentName>
-        <tca:documentUrl>https://tricharmeofficial.com/etica-valori-tricharme/licenze-crediti-immagini/</tca:documentUrl>
-      </tca:legalDocument>
+        <tca:legalDocument>
+          <tca:LegalDocument>
+            <tca:documentName>Etica e Valori Tricharmé</tca:documentName>
+            <tca:documentUrl>https://tricharmeofficial.com/etica-valori-tricharme/</tca:documentUrl>
+          </tca:LegalDocument>
+        </tca:legalDocument>
 
-      <tca:legalDocument>
-        <tca:documentName>Crediti Autori</tca:documentName>
-        <tca:documentUrl>https://tricharmeofficial.com/credit-autori/</tca:documentUrl>
-      </tca:legalDocument>
+        <tca:legalDocument>
+          <tca:LegalDocument>
+            <tca:documentName>Licenze e Crediti Immagini</tca:documentName>
+            <tca:documentUrl>https://tricharmeofficial.com/etica-valori-tricharme/licenze-crediti-immagini/</tca:documentUrl>
+          </tca:LegalDocument>
+        </tca:legalDocument>
 
-      <tca:legalDocument>
-        <tca:documentName>Disclaimer Medico Tricharmé</tca:documentName>
-        <tca:documentUrl>https://tricharmeofficial.com/disclaimer-medico-tricharmé/</tca:documentUrl>
-      </tca:legalDocument>
+        <tca:legalDocument>
+          <tca:LegalDocument>
+            <tca:documentName>Crediti Autori</tca:documentName>
+            <tca:documentUrl>https://tricharmeofficial.com/credit-autori/</tca:documentUrl>
+          </tca:LegalDocument>
+        </tca:legalDocument>
 
-      <tca:legalDocument>
-        <tca:documentName>Termini Legali Magazine Tricharmé</tca:documentName>
-        <tca:documentUrl>https://tricharmeofficial.com/termini-legali-magazine-tricharmé/</tca:documentUrl>
-      </tca:legalDocument>
+        <tca:legalDocument>
+          <tca:LegalDocument>
+            <tca:documentName>Disclaimer Medico Tricharmé</tca:documentName>
+            <tca:documentUrl>https://tricharmeofficial.com/disclaimer-medico-tricharme/</tca:documentUrl>
+          </tca:LegalDocument>
+        </tca:legalDocument>
+
+        <tca:legalDocument>
+          <tca:LegalDocument>
+            <tca:documentName>Termini Legali Magazine Tricharmé</tca:documentName>
+            <tca:documentUrl>https://tricharmeofficial.com/termini-legali-magazine-tricharme/</tca:documentUrl>
+          </tca:LegalDocument>
+        </tca:legalDocument>
+
+      </tca:LegalHub>
     </tca:legalHub>
 
   </schema:Dataset>
