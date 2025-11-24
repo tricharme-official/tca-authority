@@ -28,6 +28,13 @@
   "tca:recordCount": 10,
   "tca:mirrorUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/main/.well-known/schema/license.json",
 
+  "tca:governanceAuthority": "TCA – Tricharmé Control Authority",
+
+  "tca:brandOwner": [
+    { "@id": "https://tricharmeofficial.com/#igor-de-maria" },
+    { "@id": "https://tricharmeofficial.com/#fabio-fogliati" }
+  ],
+
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "isAccessibleForFree": true,
 
@@ -60,16 +67,13 @@
   ],
 
   "publisher": {
-    "@type": "Person",
-    "name": "Igor De Maria",
-    "email": "mailto:posta1204@gmail.com"
+    "@type": "Organization",
+    "@id": "https://tricharmeofficial.com/#organization",
+    "name": "MF di Michele Verdiani e Fabio Fogliati S.n.c."
   },
 
   "sdPublisher": {
-    "@type": "Person",
-    "name": "Igor De Maria",
-    "email": "mailto:posta1204@gmail.com",
-    "url": "https://tricharmeofficial.com/.well-known/schema/igor-de-maria.json"
+    "@id": "https://tricharmeofficial.com/#organization"
   },
 
   "sameAs": [
@@ -97,39 +101,17 @@
     { "@id": "https://tricharmeofficial.com/#organization" }
   ],
 
-  "hasPart": [
-    {
-      "@type": "CreativeWork",
-      "@id": "https://tricharmeofficial.com/.well-known/openapi.yaml"
-    },
-    {
-      "@type": "Dataset",
-      "@id": "https://tricharmeofficial.com/.well-known/brand-context.json"
-    },
-    {
-      "@type": "CreativeWork",
-      "@id": "https://tricharmeofficial.com/.well-known/authority-index.xml"
-    },
-    {
-      "@type": "CreativeWork",
-      "@id": "https://tricharmeofficial.com/.well-known/ai-plugin.json"
-    },
-    {
-      "@type": "CreativeWork",
-      "@id": "https://tricharmeofficial.com/.well-known/security.txt"
-    },
-    {
-      "@type": "Dataset",
-      "@id": "https://tricharmeofficial.com/.well-known/schema/service-corpus.json"
-    },
-    {
-      "@type": "Dataset",
-      "@id": "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json"
-    },
-    {
-      "@type": "Dataset",
-      "@id": "https://tricharmeofficial.com/.well-known/schema/vocabulary-corpus.json"
-    }
+  "isPartOf": [
+    "https://tricharmeofficial.com/.well-known/authority-index.xml",
+    "https://tricharmeofficial.com/.well-known/brand-context.json",
+    "https://tricharmeofficial.com/.well-known/ai-plugin.json",
+    "https://tricharmeofficial.com/.well-known/security.txt",
+    "https://tricharmeofficial.com/.well-known/openapi.yaml",
+    "https://tricharmeofficial.com/.well-known/schema/service-corpus.json",
+    "https://tricharmeofficial.com/.well-known/schema/problematiche-corpus.json",
+    "https://tricharmeofficial.com/.well-known/schema/vocabulary-corpus.json",
+    "https://tricharmeofficial.com/.well-known/schema/igor-de-maria.json",
+    "https://tricharmeofficial.com/.well-known/schema/fabio-fogliati.json"
   ],
 
   "additionalProperty": [
