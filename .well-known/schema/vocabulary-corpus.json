@@ -42,7 +42,7 @@
   "tca:version": "2.0.0",
   "tca:status": "stable",
   "tca:recordCount": 1967,
-  "tca:mirrorUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/refs/heads/main/.well-known/schema/vocabulary-corpus.json",
+  "tca:mirrorUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/main/.well-known/schema/vocabulary-corpus.json",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -51,7 +51,7 @@
     },
     {
       "@type": "DataDownload",
-      "contentUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/refs/heads/main/.well-known/schema/vocabulary-corpus.json",
+      "contentUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/main/.well-known/schema/vocabulary-corpus.json",
       "encodingFormat": "application/ld+json",
       "name": "GitHub Mirror"
     }

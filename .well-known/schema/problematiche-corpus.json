@@ -27,7 +27,7 @@
   "tca:version": "2.0.0",
   "tca:status": "stable",
   "tca:recordCount": 20,
-  "tca:mirrorUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/refs/heads/main/.well-known/schema/problematiche-corpus.json",
+  "tca:mirrorUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/main/.well-known/schema/problematiche-corpus.json",
 
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "isAccessibleForFree": true,
@@ -47,7 +47,7 @@
     },
     {
       "@type": "DataDownload",
-      "contentUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/refs/heads/main/.well-known/schema/problematiche-corpus.json",
+      "contentUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/main/.well-known/schema/problematiche-corpus.json",
       "encodingFormat": "application/ld+json",
       "name": "GitHub Mirror"
     }

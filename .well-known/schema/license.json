@@ -26,7 +26,7 @@
   "tca:version": "2.0.0",
   "tca:status": "stable",
   "tca:recordCount": 10,
-  "tca:mirrorUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/refs/heads/main/.well-known/schema/license.json",
+  "tca:mirrorUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/main/.well-known/schema/license.json",
 
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "isAccessibleForFree": true,
@@ -84,7 +84,7 @@
     },
     {
       "@type": "DataDownload",
-      "contentUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/refs/heads/main/.well-known/schema/license.json",
+      "contentUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/main/.well-known/schema/license.json",
       "encodingFormat": "application/ld+json",
       "name": "GitHub Mirror"
     }
