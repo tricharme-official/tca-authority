@@ -12,27 +12,27 @@
   ],
   "resources": [
     {
-      "path": "authority-index.xml",
+      "path": ".well-known/authority-index.xml", 
       "format": "xml",
       "mediatype": "application/xml"
     },
     {
-      "path": "brand-context.json",
+      "path": ".well-known/brand-context.json", 
       "format": "json",
       "mediatype": "application/ld+json"
     },
     {
-      "path": "ai-plugin.json",
+      "path": ".well-known/ai-plugin.json", 
       "format": "json",
       "mediatype": "application/json"
     },
     {
-      "path": "openapi.yaml",
+      "path": ".well-known/openapi.yaml", 
       "format": "yaml",
       "mediatype": "text/yaml"
     },
     {
-      "path": "security.txt",
+      "path": "security.txt", 
       "format": "txt",
       "mediatype": "text/plain"
     },
