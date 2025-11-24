@@ -26,7 +26,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
 
   "url": "https://tricharmeofficial.com/.well-known/ai-plugin.json",
-  "tca:mirrorUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/refs/heads/main/.well-known/ai-plugin.json",
+  "tca:mirrorUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/main/.well-known/ai-plugin.json",
 
   "distribution": [
     {
@@ -36,7 +36,7 @@
     },
     {
       "@type": "DataDownload",
-      "contentUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/refs/heads/main/.well-known/ai-plugin.json",
+      "contentUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/main/.well-known/ai-plugin.json",
       "encodingFormat": "application/ld+json",
       "name": "GitHub Mirror"
     }

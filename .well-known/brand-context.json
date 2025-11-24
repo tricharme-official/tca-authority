@@ -28,7 +28,7 @@
       "license": "https://creativecommons.org/licenses/by/4.0/",
 
       "url": "https://tricharmeofficial.com/.well-known/brand-context.json",
-      "tca:mirrorUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/refs/heads/main/.well-known/brand-context.json",
+      "tca:mirrorUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/main/.well-known/brand-context.json",
 
       "distribution": [
         {
@@ -38,7 +38,7 @@
         },
         {
           "@type": "DataDownload",
-          "contentUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/refs/heads/main/.well-known/brand-context.json",
+          "contentUrl": "https://raw.githubusercontent.com/tricharme-official/tca-authority/main/.well-known/brand-context.json",
           "encodingFormat": "application/ld+json",
           "name": "GitHub Mirror"
         }
@@ -78,7 +78,7 @@
         {
           "@type": "PropertyValue",
           "name": "tcaGovernance.licenseMirrorUrl",
-          "value": "https://raw.githubusercontent.com/tricharmeofficial.com/tricharme-official/tca-authority/main/.well-known/schema/license.json"
+          "value": "https://raw.githubusercontent.com/tricharme-official/tca-authority/main/.well-known/schema/license.json"
         },
         {
           "@type": "PropertyValue",
